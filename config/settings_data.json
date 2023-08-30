@@ -1,6 +1,6 @@
 {
   "current": {
-    "purchase_code": "",
+    "purchase_code": "a53bfcef-4576-46ff-ba57-2c0af84d20b7",
     "use_rtl": "0",
     "header_design": "inline",
     "logo": "shopify:\/\/shop_images\/kalles.png",
@@ -115,6 +115,7 @@
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
         "settings": {
+          "hidden_bottombar": false,
           "border_top": false,
           "border_pos": "in",
           "space_h_item": "30",
@@ -155,11 +156,14 @@
               "col_heading": "",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "Get in touch",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -206,11 +210,14 @@
               "col_heading": "Categories",
               "menu": "footer",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -222,11 +229,14 @@
               "col_heading": "Infomation",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -238,11 +248,14 @@
               "col_heading": "Useful links",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "2",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -254,11 +267,14 @@
               "col_heading": "Newsletter Signup",
               "menu": "",
               "menu_style": "1",
+              "col_border": "none",
               "col_dk": "3",
               "col_tb": "6",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
@@ -346,9 +362,12 @@
           "sticky": false,
           "collapse": true,
           "border_top": false,
+          "enable_follow_on_shop": true,
           "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
+          "space_h_item_tb": "15",
+          "space_v_item_tb": "30",
           "space_h_item_mb": "0",
           "space_v_item_mb": "30",
           "heading_fontf": "inherit",
@@ -384,6 +403,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
+              "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0
@@ -394,6 +414,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
+              "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0
@@ -404,6 +425,7 @@
             "settings": {
               "link": "",
               "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
+              "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0
@@ -446,6 +468,7 @@
             "type": "text",
             "settings": {
               "text": "<p>Summer sale discount off <strong>50%<\/strong>! <a href=\"\/collections\" title=\"All collections\">Shop Now<\/a><\/p>",
+              "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0,
@@ -861,6 +884,7 @@
               "pr_title_color": "#ffffff",
               "pr_title_color_hover": "#56cfe1",
               "price_color": "#ffffff",
+              "price_color_second": "#696969",
               "price_sale_color": "#ec0101",
               "addtocart_color": "#ffffff",
               "addtocart_color_hover": "#222222",
@@ -902,6 +926,7 @@
           "pr_title_color": "#222222",
           "pr_title_color_hover": "#56cfe1",
           "price_color": "#696969",
+          "price_color_second": "#696969",
           "price_sale_color": "#ec0101",
           "vendors_color": "#878787",
           "vendors_color_hover": "#56cfe1",
@@ -990,11 +1015,11 @@
         "settings": {
           "enable_toolbar": true,
           "show_txt": true,
-          "bg_color": "#fff",
-          "icon_color": "#222",
-          "label_color": "#222",
-          "count_bg_color": "#000",
-          "count_text_color": "#fff"
+          "bg_color": "#ffffff",
+          "icon_color": "#222222",
+          "label_color": "#222222",
+          "count_bg_color": "#000000",
+          "count_text_color": "#ffffff"
         }
       },
       "back_top": {
@@ -1298,6 +1323,7 @@
           "552902be-02b1-40ca-8475-982bbdb75ed7"
         ],
         "settings": {
+          "bg": ""
         }
       },
       "mb_nav": {
@@ -1678,13 +1704,14 @@
               "button_effect": "sweep-to-bottom",
               "wishlist_color": "#222222",
               "wishlist_color_hover": "#56cfe1",
-              "wishlist_color_active": "#E81E1E",
+              "wishlist_color_active": "#e81e1e",
               "compare_color": "#222222",
               "compare_color_hover": "#56cfe1",
               "compare_color_active": "#222222",
               "show_dynamic_checkout": true,
               "btn_txt2": "3",
               "button_color_payment": "dark",
+              "show_gift_card_recipient": true,
               "product_list": [
 
               ],
@@ -2148,7 +2175,7 @@
               "button_effect": "sweep-to-top",
               "wishlist_color": "#222222",
               "wishlist_color_hover": "#56cfe1",
-              "wishlist_color_active": "#E81E1E",
+              "wishlist_color_active": "#e81e1e",
               "compare_color": "#222222",
               "compare_color_hover": "#56cfe1",
               "compare_color_active": "#222222",
