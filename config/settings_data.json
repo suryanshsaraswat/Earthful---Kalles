@@ -2239,16 +2239,16 @@
       "header-sidebar": {
         "type": "header-sidebar",
         "settings": {
-          "layout": "menu_left",
+          "layout": "logo_search",
           "full_header": true,
           "height": 62,
           "frm_sea_mw": 600,
-          "bgnav": "#ffffff",
+          "bgnav": "#b97942",
           "opnav": 100,
-          "clnav": "#222222",
+          "clnav": "#fff",
           "clnav_hover": "#56cfe1",
           "clsea": "#56cfe1",
-          "h_icon": "kalles",
+          "h_icon": "line",
           "hover_icon": "2",
           "show_search": true,
           "show_acc": true,
@@ -2271,7 +2271,7 @@
           "clnavtr_hover": "#ffffff",
           "clseatr": "#56cfe1",
           "source": "2",
-          "txt": "<p>Welcome to our store!<\/p>"
+          "txt": ""
         }
       }
     },
