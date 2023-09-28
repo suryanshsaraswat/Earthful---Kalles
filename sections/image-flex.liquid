@@ -50,7 +50,7 @@
 <div class="main-container">
   <div class="column_flex">
     {% for block in section.blocks %}
-    <div class="main-flex">
+    <div class="main-flex {% if block.settings.layout_flex == 'text_first' %}text_first{% endif %}">
       <div class="img_cont">
         <img src="{{ block.settings.flex_img | img_url:'master' }}" loading="lazy" alt="{{ block.id }}" width="100%" height="100%">
       </div>
