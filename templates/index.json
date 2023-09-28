@@ -279,8 +279,9 @@
         "1b26f08e-3f2d-47bf-85b8-86ccbbf27147": {
           "type": "image",
           "settings": {
-            "flex-head": "",
-            "flex-text": "",
+            "flex_img": "shopify:\/\/shop_images\/earthful_banners_-05_1500x_cdf684e6-7c9f-40cf-a14e-df7f9c270f7c.webp",
+            "flex-head": "LOOK WITHIN WITH EASE",
+            "flex-text": "Since our practices are always aligned with your best interests, we do not shy away from keeping things transparent with you. Find all ingredients right in front of our packaging to help you make an informed choice.",
             "layout_flex": "img_first"
           }
         }
