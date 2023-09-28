@@ -273,6 +273,24 @@
         "code_cus_css": ""
       }
     },
+    "8bf57ea8-b418-4fc9-a51a-e4bd9d65ec51": {
+      "type": "image-flex",
+      "blocks": {
+        "1b26f08e-3f2d-47bf-85b8-86ccbbf27147": {
+          "type": "image",
+          "settings": {
+            "flex-head": "",
+            "flex-text": "",
+            "layout_flex": "img_first"
+          }
+        }
+      },
+      "block_order": [
+        "1b26f08e-3f2d-47bf-85b8-86ccbbf27147"
+      ],
+      "settings": {
+      }
+    },
     "1646035317ea8b6928": {
       "type": "featured-collection",
       "settings": {
@@ -536,6 +554,7 @@
   "order": [
     "1646028739ae283905",
     "1de41dc8-6a0d-4517-a728-ad3d46661ace",
+    "8bf57ea8-b418-4fc9-a51a-e4bd9d65ec51",
     "1646035317ea8b6928",
     "16460368750174c54a",
     "164620932069107a3a",
