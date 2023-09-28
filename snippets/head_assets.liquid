@@ -38,7 +38,7 @@
       <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
   {%- endif -%}
-
+{{- 'custom-ss.css' | asset_url | stylesheet_tag: preload: true -}}
   {{- 'base.css' | asset_url | stylesheet_tag: preload: true -}}
   {%- if isRTL %}{{- 'theme_rtl.css' | asset_url | stylesheet_tag: preload: true -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
