@@ -50,6 +50,7 @@
         <h2 class="flex-head">{{ block.settings.flex-head }}</h2>
         <div class="divider">|</div>
         <p class="flex-text">{{ block.settings.flex-text }}</p>
+        <a class="button button_primary flexi_button">{{ block.settings.flex_link }}</a>
       </div>
     </div>
     {% endfor %}
@@ -78,6 +79,11 @@
           "type":"text",
           "id":"flex-text",
           "label":"Enter Flex Body"
+        },
+        {
+          "type":"url",
+          "id":"flex_link",
+          "label":"Select link"
         },
         {
           "type":"select",
