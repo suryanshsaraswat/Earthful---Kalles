@@ -60,7 +60,7 @@
         <img src="{{ block.settings.flex_img | img_url:'master' }}" loading="lazy" alt="{{ block.id }}" width="100%" height="100%">
       </div>
       
-      <div class="text_cont {% if block.settings.layout_flex == 'text_first' %}img_to_right{% else %}img_to_left{% endif %} ">
+      <div class="text_cont {% if block.settings.layout_flex == 'text_first' %}img_to_right{% else %}img_to_left{% endif %}" style="background-color:{{ block.settings.color_bg_text }}">
         <h2 class="flex-head">{{ block.settings.flex-head }}</h2>
         <div class="divider">|</div>
         <p class="flex-text">{{ block.settings.flex-text }}</p>
@@ -103,6 +103,12 @@
           "type":"text",
           "id":"flex_link_text",
           "label":"Type Button text"
+        },
+        {
+          "type": "color",
+          "id": "color_bg_text",
+          "label": "Text Background color",
+          "default": "#ccbacc"
         },
         {
           "type":"select",
