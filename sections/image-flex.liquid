@@ -1,0 +1,51 @@
+{% schema %}
+{
+  "name":"Image with text",
+  "settings":[],
+  "blocks":[
+    {
+      "type":"image",
+      "name":"Flex BLock",
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"flex_img",
+          "label":"Select Flex image"
+        },
+        {
+          "type":"text",
+          "id":"flex-head",
+          "label":"Enter Flex Heading"
+        },
+        {
+          "type":"text",
+          "id":"flex-text",
+          "label":"Enter Flex Body"
+        },
+        {
+          "type":"select",
+          "id":"layout_flex",
+          "options":[
+            {
+              "value":"img_first",
+              "label":"Image FIrst"
+            },
+            {
+              "value":"text_first",
+              "label":"Text First"
+            }
+          ],
+          "default":"img_first",
+          "label":"Select Layout"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "category":"homepage",
+      "name":"Image with text"
+    }
+  ]
+}
+{% endschema %}
