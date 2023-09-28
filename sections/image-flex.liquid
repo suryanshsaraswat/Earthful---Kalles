@@ -3,9 +3,12 @@
   <div class="column_flex">
     <div class="main-flex">
       <div class="img_cont">
-        <img src="" loading="lazy" alt="{{ block.id }}" style="width:100%; height:auto">
+        <img src="{{ block.settings.flex_img | img_url:'master' }}" loading="lazy" alt="{{ block.id }}" style="width:100%; height:auto">
       </div>
-      <div class="text_cont"></div>
+      <div class="text_cont">
+        <h2 class="flex-head">{{ block.settings.flex-head }}</h2>
+        <p class="flex-text">{{ block.settings.flex-text }}</p>
+      </div>
     </div>
   </div>
 </div>
