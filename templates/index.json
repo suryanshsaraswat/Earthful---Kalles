@@ -297,11 +297,35 @@
             "flex_link_text": "KNOW US BETTER",
             "layout_flex": "text_first"
           }
+        },
+        "5de53541-bfae-478c-8687-ae94433d1941": {
+          "type": "image",
+          "settings": {
+            "flex_img": "shopify:\/\/shop_images\/earthful_banners_-05_1500x_cdf684e6-7c9f-40cf-a14e-df7f9c270f7c.webp",
+            "flex-head": "LOOK WITHIN WITH EASE",
+            "flex-text": "Since our practices are always aligned with your best interests, we do not shy away from keeping things transparent with you. Find all ingredients right in front of our packaging to help you make an informed choice.",
+            "flex_link": "shopify:\/\/pages\/ingredients-1",
+            "flex_link_text": "MEET OUR CLEAN INGREDIENTS",
+            "layout_flex": "img_first"
+          }
+        },
+        "f6156b5f-2be8-4f77-b025-6a4470344688": {
+          "type": "image",
+          "settings": {
+            "flex_img": "shopify:\/\/shop_images\/earthful_banners_-06_1500x_264db6e0-2925-4250-b979-0bf959550af8.webp",
+            "flex-head": "JUST EVIDENCE, NO FADS",
+            "flex-text": "Every product is based on the nutrition needs of Indians and their diets and ONLY contains ingredients that are backed by modern science.",
+            "flex_link": "shopify:\/\/blogs\/blog",
+            "flex_link_text": "Read Our BLOGS",
+            "layout_flex": "text_first"
+          }
         }
       },
       "block_order": [
         "1b26f08e-3f2d-47bf-85b8-86ccbbf27147",
-        "6fcda968-eac6-4ebf-adac-0c32de3c2bce"
+        "6fcda968-eac6-4ebf-adac-0c32de3c2bce",
+        "5de53541-bfae-478c-8687-ae94433d1941",
+        "f6156b5f-2be8-4f77-b025-6a4470344688"
       ],
       "settings": {
       }
