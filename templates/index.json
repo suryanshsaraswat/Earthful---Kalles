@@ -286,10 +286,22 @@
             "flex_link_text": "EXPLORE MULTIVITAMIN",
             "layout_flex": "img_first"
           }
+        },
+        "6fcda968-eac6-4ebf-adac-0c32de3c2bce": {
+          "type": "image",
+          "settings": {
+            "flex_img": "shopify:\/\/shop_images\/earthful_banners_-04_1500x_5bbc6f43-6072-411f-a1fc-0626b5090d8e.webp",
+            "flex-head": "100% PLANT DERIVED. NOTHING SYNTHETIC.",
+            "flex-text": "Achieve your daily nutrition needs via concentrated nutrients coming from food, minus the harm and side effects of artificial sources.",
+            "flex_link": "shopify:\/\/pages\/about-us",
+            "flex_link_text": "KNOW US BETTER",
+            "layout_flex": "text_first"
+          }
         }
       },
       "block_order": [
-        "1b26f08e-3f2d-47bf-85b8-86ccbbf27147"
+        "1b26f08e-3f2d-47bf-85b8-86ccbbf27147",
+        "6fcda968-eac6-4ebf-adac-0c32de3c2bce"
       ],
       "settings": {
       }
