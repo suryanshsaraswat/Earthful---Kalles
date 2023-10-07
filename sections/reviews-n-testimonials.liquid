@@ -1,3 +1,29 @@
+<style>
+  .testimonial-heading {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    padding-top: 40px;
+}
+.testimonial-heading h2 {
+    font-family: 'Literata';
+    color: #3d3d3d;
+    font-weight: 500;
+    text-align: center;
+    font-size: 45px;
+}
+.testimonial-heading p {
+    font-size: 16px;
+}
+.testimonial-image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.testimonail-content {
+    text-align: center;
+}
+</style>
 <div class="Container">
   <div class="testimonial-heading">
     {% if section.settings.test_heading != blank %}
@@ -29,6 +55,13 @@
     {% endfor %}
   </div>
 </div>
+<script>
+  $('.testimonail-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+</script>
 {% schema %}
   {
     "name": "Reviews and testimonials",
