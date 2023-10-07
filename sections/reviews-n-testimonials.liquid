@@ -1,12 +1,36 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Reviews and testimonials",
+    "settings": [
+      {
+        "type":"text",
+        "id":"test_heading",
+        "label":"enter section heading text"
+      },
+      {
+        "type":"text",
+        "id":"test_para",
+        "label":"enter section text"
+      }
+    ],
+    "blocks":[
+      {
+        "type":"image",
+        "name":"Testimonial Block",
+        "settings":[
+          {
+            "type":"text",
+            "id":"testimonial-text",
+            "label":"Enter testimonial text"
+          },
+          {
+            "type":"image_picker",
+            "id":"testimonail-image",
+            "label":"Select testimonial image"
+          }
+        ]
+      }
+    ]
+    
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
