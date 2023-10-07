@@ -1,0 +1,6 @@
+<style></style>
+{% if product.metafields.custom.bullet_description.value != blank %}
+<div class="t4s-product__description t4s-rte">
+    {{ product.metafields.custom.bullet_description.value }}
+</div>
+{% endif %}
