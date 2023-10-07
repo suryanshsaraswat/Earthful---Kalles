@@ -62,6 +62,11 @@
   slidesToScroll: 3
 });
 </script>
+<script>
+  $('.spv-slider').on('init', function(event, slick){
+    console.log("initialised")
+});
+</script>
 {% schema %}
   {
     "name": "Reviews and testimonials",
