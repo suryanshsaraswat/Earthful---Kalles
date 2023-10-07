@@ -35,6 +35,7 @@
   </div>
   <div class="testimonail-section">
    {% for block in section.blocks %}
+   <div class="testimonial-inner">
     <div class="testimonail-slider">
       <div class="testimonial-child" id="child-{{ block.id }}">
         <div class="testimonial-image">
@@ -52,6 +53,7 @@
         </div>
       </div>
     </div>
+   </div>
     {% endfor %}
   </div>
 </div>
