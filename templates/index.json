@@ -284,6 +284,7 @@
             "flex-text": "Since our practices are always aligned with your best interests, we do not shy away from keeping things transparent with you. Find all ingredients right in front of our packaging to help you make an informed choice.",
             "flex_link": "shopify:\/\/products\/menmultivitamin",
             "flex_link_text": "EXPLORE MULTIVITAMIN",
+            "color_bg_text": "#bacccc",
             "layout_flex": "img_first"
           }
         },
@@ -295,6 +296,7 @@
             "flex-text": "Achieve your daily nutrition needs via concentrated nutrients coming from food, minus the harm and side effects of artificial sources.",
             "flex_link": "shopify:\/\/pages\/about-us",
             "flex_link_text": "KNOW US BETTER",
+            "color_bg_text": "#b0b2a5",
             "layout_flex": "text_first"
           }
         },
@@ -306,6 +308,7 @@
             "flex-text": "Since our practices are always aligned with your best interests, we do not shy away from keeping things transparent with you. Find all ingredients right in front of our packaging to help you make an informed choice.",
             "flex_link": "shopify:\/\/pages\/ingredients-1",
             "flex_link_text": "MEET OUR CLEAN INGREDIENTS",
+            "color_bg_text": "#caa4a3",
             "layout_flex": "img_first"
           }
         },
@@ -317,6 +320,7 @@
             "flex-text": "Every product is based on the nutrition needs of Indians and their diets and ONLY contains ingredients that are backed by modern science.",
             "flex_link": "shopify:\/\/blogs\/blog",
             "flex_link_text": "READ OUR BLOGS",
+            "color_bg_text": "#e0dbd7",
             "layout_flex": "text_first"
           }
         }
