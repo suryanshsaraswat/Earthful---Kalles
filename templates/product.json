@@ -24,8 +24,15 @@
             "pr_title_color": "#222222"
           }
         },
+        "6afe32e0-5c11-4945-8ba8-4fda8f669a6f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'pr_description' %}"
+          }
+        },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
           }
@@ -186,6 +193,7 @@
       },
       "block_order": [
         "title",
+        "6afe32e0-5c11-4945-8ba8-4fda8f669a6f",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "price_review",
         "description",
