@@ -34,9 +34,10 @@
     {% endif %}
   </div>
   <div class="testimonail-section">
-   {% for block in section.blocks %}
+   
    <div class="testimonial-inner">
     <div class="testimonail-slider">
+      {% for block in section.blocks %}
       <div class="testimonial-child" id="child-{{ block.id }}">
         <div class="testimonial-image">
           {% if block.settings.testimonail-image != blank %}
@@ -52,9 +53,9 @@
           {% endif %}
         </div>
       </div>
+      {% endfor %}
     </div>
    </div>
-    {% endfor %}
   </div>
 </div>
 <script>
