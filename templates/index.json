@@ -334,6 +334,44 @@
       "settings": {
       }
     },
+    "ef1a37c2-e52e-495f-a711-9cc5502d944f": {
+      "type": "reviews-n-testimonials",
+      "blocks": {
+        "0b1eb607-e0b7-42d6-8ff1-71d737f62167": {
+          "type": "image",
+          "settings": {
+            "testimonail-image": "shopify:\/\/shop_images\/testimonial_1.webp",
+            "testimonial-name": "Dr. Surakshit Battina",
+            "testimonial-text": "MD, Gynecology"
+          }
+        },
+        "cd9f712f-42c7-46c9-be7e-f19e93cc2c6a": {
+          "type": "image",
+          "settings": {
+            "testimonail-image": "shopify:\/\/shop_images\/testimonial_3.webp",
+            "testimonial-name": "Dr Sri Karan Uddesh",
+            "testimonial-text": "MD, Internal Medicine"
+          }
+        },
+        "b5853420-7d2f-4547-a9f4-6eb6d0f8f441": {
+          "type": "image",
+          "settings": {
+            "testimonail-image": "shopify:\/\/shop_images\/testimonial_2.jpg",
+            "testimonial-name": "Akansha Jhalani",
+            "testimonial-text": "Registered Dietitian and Clinical Nutritionist"
+          }
+        }
+      },
+      "block_order": [
+        "0b1eb607-e0b7-42d6-8ff1-71d737f62167",
+        "cd9f712f-42c7-46c9-be7e-f19e93cc2c6a",
+        "b5853420-7d2f-4547-a9f4-6eb6d0f8f441"
+      ],
+      "settings": {
+        "test_heading": "Our Scientific Advisors",
+        "test_para": "Our Scientific Advisors, doctors and nutritionists guide us with latest scientific approaches & innovation. This ensures we deliver on our promise to you."
+      }
+    },
     "1646035317ea8b6928": {
       "type": "featured-collection",
       "settings": {
@@ -598,6 +636,7 @@
     "1646028739ae283905",
     "1de41dc8-6a0d-4517-a728-ad3d46661ace",
     "8bf57ea8-b418-4fc9-a51a-e4bd9d65ec51",
+    "ef1a37c2-e52e-495f-a711-9cc5502d944f",
     "1646035317ea8b6928",
     "16460368750174c54a",
     "164620932069107a3a",
