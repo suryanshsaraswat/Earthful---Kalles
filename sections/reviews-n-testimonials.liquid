@@ -1,3 +1,32 @@
+<div class="Container">
+  <div class="testimonial-heading">
+    {% if section.settings.test_heading != blank %}
+    <h2>{{ section.settings.test_heading }}</h2>
+    {% endif %}
+    {% if section.settings.test_para != blank %}
+    <p>{{ section.settings.test_para }}</p>
+    {% endif %}
+  </div>
+  <div class="testimonail-section">
+    <div class="testimonail-slider">
+      <div class="testimonial-child" id="child-{{ block.id }}">
+        <div class="testimonial-image">
+          {% if block.settings.testimonail-image != blank %}
+          <h2><img src="{{ block.settings.testimonail-image | img_url: 'master'}}" loading="lazy" class="test-image" alt="{{block.settings.testimonail-test}}"></h2>
+          {% endif %}
+        </div>
+        <div class="testimonail-content">
+          {% if block.settings.testimonial-name != blank %}
+          <h3>{{ block.settings.testimonial-name }}</h3>
+          {% endif %}
+          {% if block.settings.testimonial-text != blank %}
+          <p>{{ block.settings.testimonial-text }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% schema %}
   {
     "name": "Reviews and testimonials",
@@ -18,15 +47,21 @@
         "type":"image",
         "name":"Testimonial Block",
         "settings":[
-          {
-            "type":"text",
-            "id":"testimonial-text",
-            "label":"Enter testimonial text"
-          },
+          
           {
             "type":"image_picker",
             "id":"testimonail-image",
             "label":"Select testimonial image"
+          },
+          {
+            "type":"text",
+            "id":"testimonial-name",
+            "label":"Enter Testimonail Name"
+          },
+          {
+            "type":"text",
+            "id":"testimonial-text",
+            "label":"Enter testimonial text"
           }
         ]
       }
