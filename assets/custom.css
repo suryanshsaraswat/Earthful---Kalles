@@ -23,3 +23,7 @@
 @media (max-width: 767px){
 
 }
+.Container {
+    max-width: 100%;
+    padding: 0px 50px;
+}
