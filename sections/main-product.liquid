@@ -439,6 +439,9 @@ endif -%}
                   {%- capture readm -%}
                     {%- if bk_stts.readm %}<button class="t4s-product__description_readm" data-go-id='#{{ idTabDes }}'>{{ bk_stts.readm_txt }}</button>{% endif -%}
                   {%- endcapture -%}
+                  <div class="t4s-product_description t4s-rte" {{ block.shopify_attributes }}>
+                    <p>{{ product.metafields.custom.bullet_description.value }}</p>
+                  </div>
 
                   <div class="t4s-product__description t4s-rte" {{ block.shopify_attributes }}>
                     {%- if bk_stts.des == '1' -%}{{- pr_des -}}
