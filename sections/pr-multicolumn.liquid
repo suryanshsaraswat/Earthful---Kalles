@@ -18,6 +18,40 @@
     width: 100%;
     flex-wrap: wrap;
 }
+.modal-mc-mc {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        /* modal-mc content */
+        .modal-mc-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Close button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Close button on hover */
+        .close:hover {
+            color: black;
+        }
 </style>
 <div class="Container multi">
     <div class="multicolu-mn-parent">
@@ -26,12 +60,12 @@
             {% for block in section.blocks %}
                 {%-  assign i = i | plus: 1  -%}
                 {% if i <= 4 %}
-                <div class="multi-column-image" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
                     {{- block.settings.mul_cap_heading -}}
                     </div>
                 <div class="popover-content-block">
-                    <div class="modal">
-                        <div class="modal-content">
+                    <div class="modal-mc">
+                        <div class="modal-mc-content">
                             <span class="close">&times;</span>
                             {{ block.settings.ingredient_html }}
                             </div>
@@ -42,7 +76,22 @@
         </div>    
     </div>
 </div>
+<script>
+    <script>
+    $(".open-modal").click(function () {
+        $(".modal-mc").css("display", "block");
+    });
+    $(".close").click(function () {
+        $(".modal-mc").css("display", "none");
+    });
+    $(window).click(function (event) {
+        if ($(event.target).hasClass("modal-mc")) {
+            $(".modal-mc").css("display", "none");
+        }
+    });
+</script>
 
+</script>
 
 {% schema %}
     {
