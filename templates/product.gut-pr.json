@@ -256,6 +256,12 @@
         "time": 3
       }
     },
+    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e": {
+      "type": "hero-images",
+      "settings": {
+        "linking_image": ""
+      }
+    },
     "5dfec7ec-df7f-45d9-8f23-aaca9d8f8c29": {
       "type": "hero_image",
       "settings": {
@@ -524,6 +530,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e",
     "5dfec7ec-df7f-45d9-8f23-aaca9d8f8c29",
     "1696769764e355cd70",
     "sidebar",
