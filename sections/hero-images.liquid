@@ -1,0 +1,28 @@
+{% schema %}
+    {
+        "name":"Hero Images",
+        "settings": [
+            {
+                "type":"image_picker",
+                "id":"desktop_image",
+                "label":"Select Desktop Image"
+            },
+            {
+                "type":"image_picker",
+                "id": "mobile_image",
+                "label":"Select Mobile Image"
+            },
+            {
+                "type":"url",
+                "id":"linking_image",
+                "label":"Link the images"
+            }
+        ],
+        "presets":[
+            {
+                "name": "Hero Images",
+                "category":"product"
+            }
+        ]
+    }
+{% endschema %}
