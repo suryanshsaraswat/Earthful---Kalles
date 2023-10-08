@@ -31,17 +31,19 @@
 </div>
 <script>
     <script>
-    $(".open-modal").click(function () {
-        $(".modal-mc").css("display", "block");
-    });
-    $(".close").click(function () {
-        $(".modal-mc").css("display", "none");
-    });
-    $(window).click(function (event) {
-        if ($(event.target).hasClass("modal-mc")) {
-            $(".modal-mc").css("display", "none");
-        }
-    });
+        $(document).ready(function(){
+            $(".open-modal").click(function () {
+                $(".modal-mc").css("display", "block");
+                });
+                $(".close").click(function () {
+                    $(".modal-mc").css("display", "none");
+                    });
+                    $(window).click(function (event) {
+                        if ($(event.target).hasClass("modal-mc")) {
+                            $(".modal-mc").css("display", "none");
+                            }
+                            });
+        });
 </script>
 
 </script>
