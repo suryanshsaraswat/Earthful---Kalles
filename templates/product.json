@@ -255,6 +255,55 @@
         "time": 3
       }
     },
+    "5ed4e849-b838-4d58-91c1-ad445bab3d22": {
+      "type": "pr-multicolumn",
+      "blocks": {
+        "68ba7ab1-9829-4e77-9f95-d34b3eb96aba": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Ajwain_Capsule_2cd5724b-e2d4-4f7d-8605-f7422570c4c5.png",
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        },
+        "904214f4-ea0a-4b42-9c88-5c15f925dff2": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_c6c57ea8-980a-43bf-97a0-a8d930c5a3d6.png",
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        },
+        "59e069f2-311c-4705-9ba6-5f9aba5138d0": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Triphala_Capsule_0eecfa06-e28e-4aeb-be72-d6c83ddcb4ca.png",
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        },
+        "f033f8d6-861b-493f-a057-37fae2c037fb": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Cumin_Capsule_166be0e0-5077-4e60-8a09-da5e3a02c619.png",
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "68ba7ab1-9829-4e77-9f95-d34b3eb96aba",
+        "904214f4-ea0a-4b42-9c88-5c15f925dff2",
+        "59e069f2-311c-4705-9ba6-5f9aba5138d0",
+        "f033f8d6-861b-493f-a057-37fae2c037fb"
+      ],
+      "settings": {
+        "mc_heading": "See Through Us!",
+        "view_more_checkbox": true,
+        "btt_text": "",
+        "Btt_link": ""
+      }
+    },
     "2b69c07d-bfac-427b-a453-75306fb9bb09": {
       "type": "pr_multicolumn",
       "blocks": {
@@ -275,11 +324,21 @@
             "ingrediant_content": "",
             "ingrediant_html": "<p class=\"pop-subhead\">The Great Panacea<\/p>\n<p class=\"pop-subhead1\">Botanical Names - \nEmblica officinalis (Amla) +\nTerminalia chebula (Haritaka) +\nTerminalia bellirica (Bibitaki)<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Meet Triphala, a well known herbal remedy made by using three powerful plants namely Amla, Haritaka and Bibhitaki. All these ingredients are combined in equal proportions to form what is called Triphala.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nTriphala is a polyherb medicine which is made by joining two words, \"tri\" which means three and \"phala\" meaning fruits. It is a comibination of three dried fruits namely Amalaki, Bibhitaki, Haritaki\n<\/p>"
           }
+        },
+        "5e67773a-a081-4c7a-9e6e-c8c46b7ab0c8": {
+          "type": "box",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/Triphala_Capsule_0eecfa06-e28e-4aeb-be72-d6c83ddcb4ca.png",
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
         }
       },
       "block_order": [
         "81033766-f6d6-49ca-b933-5a82b2012c25",
-        "080cb671-121e-4e56-9d2b-6f5c514c179d"
+        "080cb671-121e-4e56-9d2b-6f5c514c179d",
+        "5e67773a-a081-4c7a-9e6e-c8c46b7ab0c8"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -497,6 +556,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "5ed4e849-b838-4d58-91c1-ad445bab3d22",
     "2b69c07d-bfac-427b-a453-75306fb9bb09",
     "sidebar",
     "product-recommendations",
