@@ -491,9 +491,10 @@
         "d582d7d6-b9e5-4e18-a8cf-ef93412dcde2": {
           "type": "box",
           "settings": {
-            "ingrediant_title": "Vitamin",
+            "bg_image": "shopify:\/\/shop_images\/Triphala_Capsule_0eecfa06-e28e-4aeb-be72-d6c83ddcb4ca.png",
+            "ingrediant_title": "triphala",
             "ingrediant_content": "",
-            "ingrediant_html": ""
+            "ingrediant_html": "<p class=\"pop-subhead\">The Great Panacea<\/p>\n<p class=\"pop-subhead1\">Botanical Names - \nEmblica officinalis (Amla) +\nTerminalia chebula (Haritaka) +\nTerminalia bellirica (Bibitaki)<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Meet Triphala, a well known herbal remedy made by using three powerful plants namely Amla, Haritaka and Bibhitaki. All these ingredients are combined in equal proportions to form what is called Triphala.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nTriphala is a polyherb medicine which is made by joining two words, \"tri\" which means three and \"phala\" meaning fruits. It is a comibination of three dried fruits namely Amalaki, Bibhitaki, Haritaki\n<\/p>"
           }
         },
         "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1": {
