@@ -36,9 +36,11 @@
                         </div>
                     </div>    
             {% endif %}
+            {% assign j=i %}
             {% endfor %}
         </div>
-        {% if i>=4 %}
+        
+        {% if j >= 4 %}
         <div class="view-more">
             view-more
         </div>
