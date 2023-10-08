@@ -11,6 +11,7 @@
     height: 100%;
     background-color: rgba(0,0,0,0.2);
 }
+.hidden.multi-column-childs-flex{display: none;}
 .show{display: block;}
     .modal-mc-content{background-color:#fefefe;margin:15% auto;padding: 20px 11px;border:1px solid #888;width:80%;max-width:400px;text-align:center}
     .close{color:#aaa;float:right;font-size:28px;font-weight:700}
@@ -33,11 +34,14 @@
                             {{ block.settings.ingredient_html }}
                             </div>
                         </div>
-                    </div>   
-                    {{ i }} 
+                    </div>    
             {% endif %}
             {% endfor %}
         </div>
+        <div class="view-more">
+            view-more
+        </div>
+        <div class="hidden multi-column-childs-flex"
        
     </div>
 </div>
