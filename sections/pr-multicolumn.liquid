@@ -35,8 +35,12 @@
                             </div>
                         </div>
                     </div>
+                {% endfor %}
         </div>
-    {% endfor %}
+        {% if block_count > 4 %}
+        <div class="view_more">
+            view more
+        </div>
     </div>
 </div>
 <script>
