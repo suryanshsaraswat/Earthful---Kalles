@@ -475,6 +475,56 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "2bd404a4-b867-4efb-9791-8dee8c264f8e": {
+      "type": "pr_multicolumn",
+      "blocks": {
+        "87a96afc-b370-42a0-9ba5-09789c2d23e8": {
+          "type": "box",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/Cumin_Capsule_166be0e0-5077-4e60-8a09-da5e3a02c619.png",
+            "ingrediant_title": "CUMIN",
+            "ingrediant_content": "",
+            "ingrediant_html": "<p class=\"pop-subhead\">A HERB WHICH DESERVES ALL THE LOVE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Cuminum cyminum<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Never knew a tiny seed could carry such a power. A powerful antioxidant, cumin also promotes digestion, boost your body and your mind.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nDo you ever wonder if cumin could be used to pay taxes? Well it could have been possible if you were still living in the Middle Age. Cumin was also believed to help chickens and lovers from running away. It was even carried during weddings with a belief that it could bring happiness\n<\/p>"
+          }
+        },
+        "d582d7d6-b9e5-4e18-a8cf-ef93412dcde2": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "87a96afc-b370-42a0-9ba5-09789c2d23e8",
+        "d582d7d6-b9e5-4e18-a8cf-ef93412dcde2",
+        "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "section_id": "multicolumnid",
+        "viewmore": false,
+        "viewmoretext": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -484,6 +534,7 @@
     "1696769764e355cd70",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "2bd404a4-b867-4efb-9791-8dee8c264f8e"
   ]
 }
