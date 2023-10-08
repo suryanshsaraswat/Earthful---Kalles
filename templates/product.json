@@ -255,6 +255,48 @@
         "time": 3
       }
     },
+    "2b69c07d-bfac-427b-a453-75306fb9bb09": {
+      "type": "pr_multicolumn",
+      "blocks": {
+        "81033766-f6d6-49ca-b933-5a82b2012c25": {
+          "type": "box",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/Cumin_Capsule_166be0e0-5077-4e60-8a09-da5e3a02c619.png",
+            "ingrediant_title": "CUMIN",
+            "ingrediant_content": "",
+            "ingrediant_html": "<p class=\"pop-subhead\">A HERB WHICH DESERVES ALL THE LOVE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Cuminum cyminum<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Never knew a tiny seed could carry such a power. A powerful antioxidant, cumin also promotes digestion, boost your body and your mind.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nDo you ever wonder if cumin could be used to pay taxes? Well it could have been possible if you were still living in the Middle Age. Cumin was also believed to help chickens and lovers from running away. It was even carried during weddings with a belief that it could bring happiness\n<\/p>"
+          }
+        },
+        "080cb671-121e-4e56-9d2b-6f5c514c179d": {
+          "type": "box",
+          "settings": {
+            "bg_image": "shopify:\/\/shop_images\/Triphala_Capsule_0eecfa06-e28e-4aeb-be72-d6c83ddcb4ca.png",
+            "ingrediant_title": "TRIPHALA",
+            "ingrediant_content": "",
+            "ingrediant_html": "<p class=\"pop-subhead\">The Great Panacea<\/p>\n<p class=\"pop-subhead1\">Botanical Names - \nEmblica officinalis (Amla) +\nTerminalia chebula (Haritaka) +\nTerminalia bellirica (Bibitaki)<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Meet Triphala, a well known herbal remedy made by using three powerful plants namely Amla, Haritaka and Bibhitaki. All these ingredients are combined in equal proportions to form what is called Triphala.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nTriphala is a polyherb medicine which is made by joining two words, \"tri\" which means three and \"phala\" meaning fruits. It is a comibination of three dried fruits namely Amalaki, Bibhitaki, Haritaki\n<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "81033766-f6d6-49ca-b933-5a82b2012c25",
+        "080cb671-121e-4e56-9d2b-6f5c514c179d"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "section_id": "multicolumnid",
+        "viewmore": false,
+        "viewmoretext": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -455,6 +497,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "2b69c07d-bfac-427b-a453-75306fb9bb09",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"

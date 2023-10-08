@@ -500,6 +500,7 @@
         "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1": {
           "type": "box",
           "settings": {
+            "bg_image": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_c6c57ea8-980a-43bf-97a0-a8d930c5a3d6.png",
             "ingrediant_title": "Vitamin",
             "ingrediant_content": "",
             "ingrediant_html": ""
