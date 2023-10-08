@@ -17,13 +17,13 @@
     .close{color:#aaa;float:right;font-size:28px;font-weight:700}
     .close:hover{color:#000}
 </style>
+{% assign block_count = section.blocks.size %}
 <div class="Container multi">
     <div class="multicolu-mn-parent">
         <div class="multi-column-childs-flex">
-            {% assign block_count = section.blocks.size %}
             {% for block in section.blocks %}
-                <div class="child">
-                <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                <div class="main-flex">
+                    <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
                     {{- block.settings.mul_cap_heading -}}
                     </div>
                     <div class="popover-content-block">
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    </div>   
+                </div>  
                 {% endfor %}
         </div>
         {% if block_count > 4 %}
