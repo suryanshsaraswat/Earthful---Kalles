@@ -1,3 +1,27 @@
+<style>
+    .desktop-image{display: block;max-width: 100%;width: 100%;}
+    .mobile-image{display: none;}
+    @media(max-width:450px){
+        .desktop-image{display: none;}
+        .mobile-image{display: block;max-width: 100%; width: 100%;}
+    }
+</style>
+<div class="hero-image-container">
+    <div class="desktop-image">
+        {% if section.settings.url != blank %}
+        <a href="{{ section.settings.linking_image }}"><img src="{{ section.settings.desktop_image | img_url: 'master' }}" style="width:100%; height:auto" alt="hero banner"></a>
+         {%  else %}
+         <img src="{{ section.settings.desktop_image | img_url: 'master' }}" style="width:100%; height:auto" alt="hero banner">
+        {% endif %}
+    </div>
+    <div class="mobile-image">
+        {% if section.settings.url != blank %}
+        <a href="{{ section.settings.linking_image }}"><img src="{{ section.settings.mobile_image | img_url: 'master' }}" style="width:100%; height:auto" alt="hero banner"></a>
+         {%  else %}
+         <img src="{{ section.settings.mobile_image | img_url: 'master' }}" style="width:100%; height:auto" alt="hero banner">
+        {% endif %}
+    </div>
+</div>
 {% schema %}
     {
         "name":"Hero Images",
