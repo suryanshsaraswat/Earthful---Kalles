@@ -44,9 +44,11 @@
         $('.open-modal').on("click",function(){
             alert('click working');
             $('.modal-mc').addClass('show');
+            $('body').css("overflow","hidden");
         });
         $('.close').on("click",function(){
             $('.modal-mc').removeClass('show');
+            $('body').css("overflow","visible");
         })
     });
 </script>
