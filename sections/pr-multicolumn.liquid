@@ -2,8 +2,14 @@
 <div class="Container multi">
     <div class="multicolu-mn-parent">
         <div class="multi-column-childs-flex">
+            {% assign i = 0 %}
             {% for block in section.blocks %}
-            <div class=""
+                {%-  assign i = i | plus: 1  -%}
+                {% if i <= 4 %}
+                <div class="multi-column-image" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                    {{- block.settings.mul_cap_heading -}}
+                    </div>
+            {% endif %}
             {% endfor %}
         </div>    
     </div>
