@@ -1,3 +1,15 @@
+<style></style>
+<div class="Container multi">
+    <div class="multicolu-mn-parent">
+        <div class="multi-column-childs-flex">
+            {% for block in section.blocks %}
+            <div class=""
+            {% endfor %}
+        </div>    
+    </div>
+</div>
+
+
 {% schema %}
     {
         "name": "PR Mutlicolumn",
@@ -55,18 +67,18 @@
                 "settings": [
                     {
                         "type": "image_picker",
-                        "id": "mul_cap",
+                        "id": "mul_cap_hidden",
                         "label": "Select Capsule Image"
                     },
                     {
                         "type": "text",
-                        "id": "mul_cap_heading",
+                        "id": "mul_cap_heading_hidden",
                         "label": "Enter Capsule Ingredient Heading",
                         "default": "CUMIN"
                     },
                     {
                         "type": "html",
-                        "id": "ingredient_html",
+                        "id": "ingredient_html_hidden",
                         "label":"Popup Content"
                     }
                 ]
