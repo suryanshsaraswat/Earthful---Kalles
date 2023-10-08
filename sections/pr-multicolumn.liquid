@@ -43,9 +43,11 @@
     $(document).ready(function(){
         $('.open-modal').on("click",function(){
             alert('click working');
-            $('#open-modal').css("display","block");
             $('.modal-mc').addClass('show');
         });
+        $('.close').on("click",function(){
+            $('.model-mc').removeClass('show');
+        })
     });
 </script>
 
