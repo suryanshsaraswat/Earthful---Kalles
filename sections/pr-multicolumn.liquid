@@ -27,7 +27,7 @@
                     {{- block.settings.mul_cap_heading -}}
                     </div>
                 <div class="popover-content-block">
-                    <div class="modal-mc">
+                    <div class="modal-mc" id="open-modal">
                         <div class="modal-mc-content">
                             <span class="close">&times;</span>
                             {{ block.settings.ingredient_html }}
@@ -43,6 +43,7 @@
     $(document).ready(function(){
         $('.open-modal').on("click",function(){
             alert('click working');
+            ('#open-modal').css("display","block");
             ('.modal-mc').addClass('show');
         });
     });
