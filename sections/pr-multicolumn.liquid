@@ -1,0 +1,82 @@
+{% schema %}
+    {
+        "name": "PR Mutlicolumn",
+        "settings":[
+            {
+                "type":"text",
+                "id":"mc_heading",
+                "label":"Heading",
+                "default": "See Through Us!"
+            },
+            {
+                "type": "checkbox",
+                "id": "view_more_checkbox",
+                "default": "checked",
+                "label": "Show View More"
+            },
+            {
+                "type": "text",
+                "id":"btt_text",
+                "label": "Button Label"
+            },
+            {
+                "type": "url",
+                "id": "Btt_link",
+                "label":"Button URL"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Ingredients Box",
+                "type":"image",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "mul_cap",
+                        "label": "Select Capsule Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "mul_cap_heading",
+                        "label": "Enter Capsule Ingredient Heading",
+                        "default": "CUMIN"
+                    },
+                    {
+                        "type": "html",
+                        "id": "ingredient_html",
+                        "label":"Popup Content"
+                    }
+                ]
+            },
+            {
+                "name": "Other Ingredients",
+                "type": "image",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "mul_cap",
+                        "label": "Select Capsule Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "mul_cap_heading",
+                        "label": "Enter Capsule Ingredient Heading",
+                        "default": "CUMIN"
+                    },
+                    {
+                        "type": "html",
+                        "id": "ingredient_html",
+                        "label":"Popup Content"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "PR Mutlicolumn",
+                "category":"product"
+            }
+        ]
+    }
+{% endschema %}
