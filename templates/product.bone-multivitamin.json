@@ -153,6 +153,12 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/de8d3e2e821b4266aa5a7236493b6a5e.mov"
       }
     },
+    "0ff47adb-fd0f-495a-9880-4980668fd65f": {
+      "type": "pr-icons",
+      "settings": {
+        "pr_icons": "shopify:\/\/shop_images\/Group_39_1.png"
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -354,6 +360,7 @@
     "breadcrumb",
     "main",
     "61dd87b3-fe5f-41d9-ac8d-9ab8d922d965",
+    "0ff47adb-fd0f-495a-9880-4980668fd65f",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"
