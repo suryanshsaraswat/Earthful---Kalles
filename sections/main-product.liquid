@@ -745,8 +745,8 @@ endif -%}
                   {%- assign tabCheck = true -%}
                   {%- render 'product_tabs', product: product, se_stts: se_stts, seBlocks: seBlocks, idTabDes: idTabDes, idTabReview: idTabReview, isProductDefault: isProductDefault -%}
 
-                {%- when 'html' %}{% if bk_stts.page.content == blank %}{% continue %}{% endif -%}
-                  <div class="t4s-custom_{{ bk_id }} t4s-pr__html t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.page.content }}</div>
+                {%- when 'html' %}{% if bk_stts.page == blank %}{% continue %}{% endif -%}
+                  <div class="t4s-custom_{{ bk_id }} t4s-pr__html t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.page }}</div>
 
                   {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
                   <div class="t4s-richtext_{{ bk_id }} t4s-pr__richtext t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.text }}</div>
