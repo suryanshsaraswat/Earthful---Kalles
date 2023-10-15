@@ -214,7 +214,9 @@
         "de5d5bfc-213d-4899-8c4a-19540b1093e1": {
           "type": "image",
           "settings": {
-            "mul_cap_heading": "CUMIN",
+            "mul_cap": "shopify:\/\/shop_images\/VitaminD_Lichen_8c3a55c2-9ec7-4249-a9aa-e5daed80d64a.png",
+            "mul_cap_heading": "VITAMIN D3",
+            "ingrediant_content": "Lichen",
             "ingredient_html": ""
           }
         },
@@ -222,6 +224,7 @@
           "type": "image",
           "settings": {
             "mul_cap_heading": "CUMIN",
+            "ingrediant_content": "",
             "ingredient_html": ""
           }
         }
