@@ -128,15 +128,17 @@
         </div>
         <div class="view-more-sim" style="display:none">
             <div class="multi-column-childs-flex">
+          {% assign j= 0 %}
                 {% for block in section.blocks %}
+                  {% assign j=j | plus: 1 %}
                     <div class="main-flex">
-                        <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                        <div class="multi-column-image open-modal-{{ j }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
                         {{- block.settings.mul_cap_heading -}}
                         </div>
                         <div class="popover-content-block">
-                            <div class="modal-mc" id="open-model-{{ block.id }}">
+                            <div class="modal-mc modal-{{ j }}" id="open-model-{{ j }}">
                                 <div class="modal-mc-content">
-                                    <span class="close">&times;</span>
+                                    <span class="close close-{{ j }}">&times;</span>
                                     {{ block.settings.ingredient_html }}
                                 </div>
                             </div>
@@ -144,12 +146,12 @@
                     </div>  
               <script>
                   $(document).ready(function(){
-                    $('.open-modal-{{ i }}').on("click",function(){
-                      $('.modal-{{ i }}').addClass('show');
+                    $('.open-modal-{{ j }}').on("click",function(){
+                      $('.modal-{{ j }}').addClass('show');
                       $('body').css("overflow","hidden");
                     });
-                    $('.close-{{ i }}').on("click",function(){
-                      $('.modal-{{ i }}').removeClass('show');
+                    $('.close-{{ j }}').on("click",function(){
+                      $('.modal-{{ j }}').removeClass('show');
                       $('body').css("overflow","visible");
                     });
                   });
