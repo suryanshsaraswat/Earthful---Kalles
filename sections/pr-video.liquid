@@ -1,0 +1,50 @@
+<style>
+  .vid-section {
+    max-width: 100%;
+    margin: 15px;
+}
+  .vid-section video {
+    border-radius: 4px;
+}
+  .video-heading h2 {
+    text-align: center;
+    font-size: 30px;
+}
+  @media(max-width:700px){
+    .video-heading h2{font-size:20px; text-align:left;margin-left:15px}
+  }
+</style>
+<div class="HTU-video">
+  <div class="video-heading">
+    <h2>{{ section.settings.video_head }}</h2>
+  </div>
+  <div class="vid-section">
+    <video width="100%" height="auto" autoplay muted playsinline>
+      <source src="{{ section.settings.video_url }}" type="video/mp4">
+    </video>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "HTU video",
+    "settings": [
+      {
+        "type":"text",
+        "id":"video_head",
+        "label":"ENter how to use heading",
+        "default":"How To Use?"
+      },
+      {
+        "type":"url",
+        "id":"video_url",
+        "label":"enter video url"
+      }
+    ],
+    "presets":[
+      {
+        "name":"HTU video",
+        "category":"page"
+      }
+    ]
+  }
+{% endschema %}
