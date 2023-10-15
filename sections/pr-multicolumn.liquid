@@ -136,11 +136,11 @@
 <script>
     $(document).ready(function(){
         $('.open-modal').on("click",function(){
-            $('#open-model').addClass('show');
+            $('#open-model-{{ block.id }}').addClass('show');
             $('body').css("overflow","hidden");
         });
         $('.close').on("click",function(){
-            $('.modal-mc').removeClass('show');
+            $('.open-model-{{ block.id }}').removeClass('show');
             $('body').css("overflow","visible");
         });
         $(".vieew").click(function(){
