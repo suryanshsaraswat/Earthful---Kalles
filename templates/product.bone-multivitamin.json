@@ -509,6 +509,27 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "46ba6ce7-c027-42c8-a0a7-a934ff426f71": {
+      "type": "image-flex",
+      "blocks": {
+        "7614f5eb-8af3-4539-aea7-1a70e825bb12": {
+          "type": "image",
+          "settings": {
+            "flex-head": "",
+            "flex-text": "",
+            "flex_link": "",
+            "flex_link_text": "",
+            "color_bg_text": "#ccbacc",
+            "layout_flex": "img_first"
+          }
+        }
+      },
+      "block_order": [
+        "7614f5eb-8af3-4539-aea7-1a70e825bb12"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -522,6 +543,7 @@
     "1d5686f3-0086-4f69-8e49-2fbef7a220bf",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "46ba6ce7-c027-42c8-a0a7-a934ff426f71"
   ]
 }
