@@ -114,7 +114,7 @@
             $('.modal-{{ i }}').addClass('show');
             $('body').css("overflow","hidden");
         });
-        $('.close{{ i }}').on("click",function(){
+        $('.close-{{ i }}').on("click",function(){
             $('.modal-{{ i }}').removeClass('show');
             $('body').css("overflow","visible");
         });
@@ -149,23 +149,17 @@
                         </div>
                     </div>  
               <script>
-    $(document).ready(function(){
-        $('.modal-{{ i }}').on("click",function(){
-            $('.{{ i }}').addClass('show');
-            $('body').css("overflow","hidden");
-        });
-        $('.close').on("click",function(){
-            $('.modal-{{ i }}').removeClass('show');
-            $('body').css("overflow","visible");
-        });
-        $(".vieew").click(function(){
-            $(".view-more-sim").slideDown(300);
-        });
-        $(".vieew-less").click(function(){
-            $('.view-more-sim').slideUp(300);
-        })
-    });
-</script>
+                  $(document).ready(function(){
+                    $('.open-modal-{{ i }}').on("click",function(){
+                      $('.modal-{{ i }}').addClass('show');
+                      $('body').css("overflow","hidden");
+                    });
+                    $('.close-{{ i }}').on("click",function(){
+                      $('.modal-{{ i }}').removeClass('show');
+                      $('body').css("overflow","visible");
+                    });
+                  });
+              </script>
                     {% endfor %}
           
             </div>
