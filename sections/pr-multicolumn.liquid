@@ -46,23 +46,26 @@
         <div class="vieew">
             view more
         </div>
-        <div class="multi-column-childs-flex">
-            {% for block in section.blocks %}
-                <div class="main-flex">
-                    <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
-                    {{- block.settings.mul_cap_heading -}}
-                    </div>
-                    <div class="popover-content-block">
-                        <div class="modal-mc" id="open-modal">
-                            <div class="modal-mc-content">
-                                <span class="close">&times;</span>
-                                {{ block.settings.ingredient_html }}
+        <div class="view-more-sim" style="display:none">
+            <div class="multi-column-childs-flex">
+                {% for block in section.blocks %}
+                    <div class="main-flex">
+                        <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                        {{- block.settings.mul_cap_heading -}}
+                        </div>
+                        <div class="popover-content-block">
+                            <div class="modal-mc" id="open-modal">
+                                <div class="modal-mc-content">
+                                    <span class="close">&times;</span>
+                                    {{ block.settings.ingredient_html }}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>  
-                {% endfor %}
+                    </div>  
+                    {% endfor %}
+            </div>
         </div>
+       
         {% endif %}
 </div>
 <script>
