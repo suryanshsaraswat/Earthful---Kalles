@@ -1,4 +1,13 @@
-
+<div class="multi-container">
+  <h2 class="mutli-heading">{{ section.settings.icon_heading }}</h2>
+  <div class="icon-flex">
+    {%  for block in section.blocks %}
+      <div class="icon-box" id="icon-{{ block.id }}">
+        <img src="{{ block.settings.icon_img | img_url:"master" }}" alt="{{ block.id }}">
+      </div>
+      {% endfor %}
+  </div>
+</div>
 {% schema %}
   {
     "name": "Icons Multicolumn",
