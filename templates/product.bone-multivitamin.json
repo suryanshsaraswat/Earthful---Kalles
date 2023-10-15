@@ -223,9 +223,10 @@
         "88615ca0-6f97-4162-9d1f-b0831c682490": {
           "type": "image",
           "settings": {
-            "mul_cap_heading": "CUMIN",
-            "ingrediant_content": "",
-            "ingredient_html": ""
+            "mul_cap": "shopify:\/\/shop_images\/Algae_Lithothamnion_Capsule_a8443ffa-8b00-493d-b5e2-dacb59de2035.png",
+            "mul_cap_heading": "Calcium",
+            "ingrediant_content": "Algae Lithothamnion",
+            "ingredient_html": "<p class=\"pop-subhead\">The Bone Savior<\/p>\n<p class=\"pop-subhead1\">Form - Calcium Carbonate | Source -Algae Lithothamnion<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Say yes to this red marine algae for a plant based calcium source for your strong bones.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\"> Calcium from plant based sources is better absorbed by your body then that from the sources.Vitamin D  is essential for its absorption as vitamin C  for iron.<\/p>"
           }
         }
       },
