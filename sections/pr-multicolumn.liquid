@@ -17,6 +17,10 @@
     .modal-mc-content{background-color:#fefefe;margin:15% auto;padding: 20px 11px;border:1px solid #888;width:80%;max-width:400px;text-align:center}
     .close{color:#aaa;float:right;font-size:28px;font-weight:700}
     .close:hover{color:#000}
+    @media(max-width:450px){
+        .multi-column-image {background-size: 95%;min-height: 262px;}
+        main-flex {flex: 50% 0 0;}
+    }
 </style>
 {% assign block_count = section.blocks.size %}
 <div class="Container multi">
