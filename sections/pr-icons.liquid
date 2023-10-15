@@ -1,0 +1,21 @@
+<div class="pr-icons">
+  <img src="{{ section.settings.pr_icons | image_url:'master' }}" alt="Bones Icon" >
+</div>
+{% schema %}
+  {
+    "name":"Product Icons",
+    "settings":[
+      {
+        "type":"image_picker",
+        "id":"pr_icons",
+        "label":"Select Icons"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Product Icons",
+        "category":"Product"
+      }
+    ]
+  }
+{% endschema %}
