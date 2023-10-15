@@ -1,4 +1,18 @@
-<style></style>
+<style>
+  .pr-icons img {
+    padding: 0 20px;
+}
+  .pr-icons {
+    max-width: 100%;
+    width: 800px;
+    margin: 23px auto;
+}
+  @media(max-width:450px){
+    .pr-icons {
+    margin: 0px auto;
+}
+  }
+</style>
 <div class="pr-icons">
   <img src="{{ section.settings.pr_icons | img_url:"master"}}" loading="lazy" alt="icons">
 </div>
