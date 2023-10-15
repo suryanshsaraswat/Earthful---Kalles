@@ -289,21 +289,13 @@
             "mul_cap_heading": "CUMIN",
             "ingredient_html": "<p class=\"pop-subhead\">A HERB WHICH DESERVES ALL THE LOVE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Cuminum cyminum<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Never knew a tiny seed could carry such a power. A powerful antioxidant, cumin also promotes digestion, boost your body and your mind.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nDo you ever wonder if cumin could be used to pay taxes? Well it could have been possible if you were still living in the Middle Age. Cumin was also believed to help chickens and lovers from running away. It was even carried during weddings with a belief that it could bring happiness\n<\/p>"
           }
-        },
-        "cc47fa9d-94f5-4364-ac81-0d30f477b24a": {
-          "type": "product",
-          "settings": {
-            "mul_cap_heading_hidden": "CUMIN",
-            "ingredient_html_hidden": ""
-          }
         }
       },
       "block_order": [
         "68ba7ab1-9829-4e77-9f95-d34b3eb96aba",
         "904214f4-ea0a-4b42-9c88-5c15f925dff2",
         "59e069f2-311c-4705-9ba6-5f9aba5138d0",
-        "f033f8d6-861b-493f-a057-37fae2c037fb",
-        "cc47fa9d-94f5-4364-ac81-0d30f477b24a"
+        "f033f8d6-861b-493f-a057-37fae2c037fb"
       ],
       "settings": {
         "mc_heading": "See Through Us!",
