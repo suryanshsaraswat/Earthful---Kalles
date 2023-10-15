@@ -3365,7 +3365,7 @@ function onYouTubeIframeAPIReady() {
                     },
                     _stickyAddToCartToggle: function (t) {
                         var n = e.scrollTop(),
-                            f = parseInt(n + c) + 60;
+                            f = parseInt(n + c) + 0;
                         (u = i.height()),
                             s < n && f !== u && f < u
                                 ? (a.addClass(d.isShow), o.addClass(d.isActive), y())
