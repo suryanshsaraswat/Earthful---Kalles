@@ -201,6 +201,13 @@
         "timeline-heading": "How it Works?"
       }
     },
+    "a3c00b45-1bf8-46ad-96ba-379a51e5ad6e": {
+      "type": "image-banner",
+      "settings": {
+        "desktop_img": "shopify:\/\/shop_images\/BONE_HEALTH_PRODUCT_PAGE_2_8e2a2d64-146a-453d-82f7-76a2fa2f2da6.png",
+        "mobile_img": "shopify:\/\/shop_images\/Mobile_BONE_HEALTH_PRODUCT_PAGEAGE-1_2b49ed2d-daca-40de-965f-af38323c023c.png"
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -404,6 +411,7 @@
     "61dd87b3-fe5f-41d9-ac8d-9ab8d922d965",
     "0ff47adb-fd0f-495a-9880-4980668fd65f",
     "39bd98db-147c-468c-bc5e-5e5cf6c44048",
+    "a3c00b45-1bf8-46ad-96ba-379a51e5ad6e",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"
