@@ -41,11 +41,14 @@
             {% for block in section.blocks %}
                 <div class="main-flex">
                     <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
-                    {% if block.settings.mul_cap_heading != blank %}
+                      <div class="ingredient-capsule">
+                        {% if block.settings.mul_cap_heading != blank %}
                       <h2>{{ block.settings.mul_cap_heading }}</h2>{% endif %}
                     {%- if block.settings.ingrediant_content != blank -%}
-                    <h2 style="font-size:4rem;color:#fff;font-family: 'Literata';padding: 0 30px;">|<br> from<br>{{ block.settings.ingrediant_content }}</h2>
+                    <h2>|<br>from<br>{{ block.settings.ingrediant_content }}</h2>
                     {%- endif -%}
+                      </div>
+                    
                     </div>
                     <div class="popover-content-block">
                         <div class="modal-mc" id="open-modal">
