@@ -171,7 +171,9 @@ button.t4s-sticky-atc__atc[disabled="disabled"]{
 @media (max-width: 767px) {
     .t4s-sticky-atc {
         flex-wrap: wrap;
+        bottom:174px;
     }
+    .t4s-sticky-atc.is--shown{bottom:54px}
     .t4s-sticky-atc__img,
     .t4s-sticky-atc__title {
         display: none
