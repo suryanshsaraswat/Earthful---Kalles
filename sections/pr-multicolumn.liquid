@@ -119,7 +119,7 @@
                         {{- block.settings.mul_cap_heading -}}
                         </div>
                         <div class="popover-content-block">
-                            <div class="modal-mc" id="open-modal">
+                            <div class="modal-mc" id="open-modal{{ block.id }}">
                                 <div class="modal-mc-content">
                                     <span class="close">&times;</span>
                                     {{ block.settings.ingredient_html }}
@@ -136,7 +136,7 @@
 <script>
     $(document).ready(function(){
         $('.open-modal').on("click",function(){
-            $('.modal-mc').addClass('show');
+            $('#open-modal{{ block.id }}').addClass('show');
             $('body').css("overflow","hidden");
         });
         $('.close').on("click",function(){
