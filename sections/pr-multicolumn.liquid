@@ -87,7 +87,7 @@
             {% for block in section.blocks %}
               {% assign i = i | plus: 1 %}
                 <div class="main-flex">
-                    <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
+                    <div class="multi-column-image open-modal-{{ i }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
                       <div class="ingredient-capsule">
                         {% if block.settings.mul_cap_heading != blank %}
                       <h2 style="text-transform:uppercase">{{ block.settings.mul_cap_heading }}</h2>{% endif %}
@@ -109,8 +109,8 @@
                 </div>  
           <script>
             $(document).ready(function(){
-        $('.modal-{{ i }}').on("click",function(){
-            $('.{{ i }}').addClass('show');
+        $('.open-modal-{{ i }}').on("click",function(){
+            $('.modal-{{ i }}').addClass('show');
             $('body').css("overflow","hidden");
         });
         $('.close').on("click",function(){
