@@ -129,13 +129,7 @@
                             </div>
                         </div>
                     </div>  
-                    {% endfor %}
-            </div>
-        </div>
-       
-        {% endif %}
-</div>
-<script>
+              <script>
     $(document).ready(function(){
         $('.modal-{{ i }}').on("click",function(){
             $('.{{ i }}').addClass('show');
@@ -153,6 +147,13 @@
         })
     });
 </script>
+                    {% endfor %}
+          
+            </div>
+        </div>
+       
+        {% endif %}
+</div>
 
 {% schema %}
     {
