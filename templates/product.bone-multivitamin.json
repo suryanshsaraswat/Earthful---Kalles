@@ -334,7 +334,7 @@
         "7614f5eb-8af3-4539-aea7-1a70e825bb12"
       ],
       "custom_css": [
-        ".main-container{padding-top:30px}"
+        ".main-container {padding-top: 30px;}"
       ],
       "settings": {
       }
@@ -424,6 +424,114 @@
         "brcolor": "#222222",
         "sidebar_bdr": 5,
         "sidebar_pd": 10
+      }
+    },
+    "2299c47c-ad04-468a-9f1a-111dceeaeb5a": {
+      "type": "accordion",
+      "blocks": {
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How often do I need to take the HEALTHY BONES CALCIUM + D3 + K2?",
+            "content": "<p><em>99% of calcium is present in bones and teeth. Our body cannot make their own calcium and needs to be provided from our diet. When sufficient Calcium is not taken in diet, our body uses calcium from the bones. This makes our bones brittle and fragile in the long run. There is an increase in calcium needs for premenopausal, vegan, lacto vegetarians. Our supplement is created to meet this demand and to reap its benefits you are recommended to consume it daily. 2 capsules a day for your healthy bones. <br\/><\/em><\/p>"
+          }
+        },
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How long should I take to see the results?",
+            "content": "<p><em>Bone formation and mineralisation is a continous process and hence we need to take daily supplementation. Some people see visible differences such as decrease in knee pains and some don't, which is also fine.Healthy Bones Calcium + D3 + K2 maintains healthy bones & ensures you don't develop any deficiencies. Continue to use the capsules on a daily basis as part of your routine.<\/em><\/p>"
+          }
+        },
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-3": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "What makes Earthful different from other Bone supplements?",
+            "content": "<p><em>Earthful is the only reliable brand in the market which makes 100% plant based supplements . There are brands which call themselves “Plant-Based'' but when you look at the back of the pack you will find that synthetic ingredients are being used. On the other hand, we clearly list the sources of the vitamins for you to understand. The ingredients are always kept transparent for you so that you don’t need to worry about the side-effects of synthetic ingredients by consuming Earthful. <br\/><\/em><\/p>"
+          }
+        },
+        "a13c75ff-f115-416d-a0dd-3fb0315cb7ed": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "When should I take the Bone supplement ?",
+            "content": "<p>It is recommended to take 2 capsules of Healthy Bones with breakfast, lunch or dinner. <\/p>"
+          }
+        },
+        "df8870dc-a024-4ef8-80ce-b21246f4cefb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Can I take Earthful Healthy Bones & Multivitamin together?",
+            "content": "<p>Yes, absolutely! Nutrients in all our supplements are well within the safe limits, so two courses together is totally fine. Just ensure a time gap in the day for the two of them. You can have the multivitamin on an empty stomach before breakfast and the healthy bones with food at dinner.<\/p>"
+          }
+        },
+        "257ecd04-23ed-4fc5-8f90-ab651815e983": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I change my Subscription delivery address?",
+            "content": "<p>Changing your address is pretty easy. Just follow these steps: <\/p><p><strong>STEP 1:<\/strong> Log into your account & click on view & edit Subscriptions. <\/p><p><strong>STEP 2:<\/strong> Select your subscription & hit “Manage Subscription” to edit it. Your current Shipping address will be visible on the right side of your screen! <\/p><p><strong>STEP 3:<\/strong> Click on “Change”. You’ll now be able to update your Subscription address. <\/p><p><strong>STEP 4:<\/strong> Enter your new address & hit save! <\/p><p>Your order will now be shipped to your new address :) <\/p>"
+          }
+        },
+        "6e3faa6a-c2e9-485d-bd7c-8e8958892ea9": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I change my Subscription order date?",
+            "content": "<p><strong>STEP 1:<\/strong> Log in to your account & click on the option, “View & Edit Subscriptions”. <\/p><p><strong>STEP 2:<\/strong> Once you do that, your subscriptions will be displayed. Choose the subscription whose date you want to change & click on “Manage Subscription”. <\/p><p><strong>STEP 3:<\/strong> Your Next Order date will be displayed on the right side of the page. Click on “Change” and select your new subscription date! <\/p><p>There it is - you’ve successfully changed your order subscription date! <\/p>"
+          }
+        },
+        "e0f69e39-b111-421a-9019-b7b5acab8b8d": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "How do I cancel my subscriptions?",
+            "content": "<p>Canceling your subscriptions is pretty easy. <\/p><p><strong>STEP 1:<\/strong> Log into your account & navigate to your Subscriptions. <\/p><p><strong>STEP 2:<\/strong> Choose your Subscription & select “Manage Your Subscription”<\/p><p><strong>STEP 3:<\/strong> Hit the “Cancel Subscription” option on the bottom of the screen to cancel your subscription. <\/p><p>There you go! You can always subscribe to a product again on that specific product page :)  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-1",
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-2",
+        "template--16047784231096__2299c47c-ad04-468a-9f1a-111dceeaeb5a-accor_item-3",
+        "a13c75ff-f115-416d-a0dd-3fb0315cb7ed",
+        "df8870dc-a024-4ef8-80ce-b21246f4cefb",
+        "257ecd04-23ed-4fc5-8f90-ab651815e983",
+        "6e3faa6a-c2e9-485d-bd7c-8e8958892ea9",
+        "e0f69e39-b111-421a-9019-b7b5acab8b8d"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Let’s clear your Doubts!",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "1",
+        "title_cl": "#b97942",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#dfbb90",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#fff",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "product-recommendations": {
@@ -547,6 +655,7 @@
     "1d5686f3-0086-4f69-8e49-2fbef7a220bf",
     "46ba6ce7-c027-42c8-a0a7-a934ff426f71",
     "sidebar",
+    "2299c47c-ad04-468a-9f1a-111dceeaeb5a",
     "product-recommendations",
     "recently-viewed-products"
   ]
