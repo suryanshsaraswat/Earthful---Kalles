@@ -29,6 +29,7 @@
   .ingredient-capsule h2 {
     font-size: 15px;
     color: #fff;
+    padding: 0 10px;
 }
   .ingredient-capsule {
     margin-top: 39px;
@@ -50,7 +51,7 @@
                     <div class="multi-column-image open-modal" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
                       <div class="ingredient-capsule">
                         {% if block.settings.mul_cap_heading != blank %}
-                      <h2>{{ block.settings.mul_cap_heading }}</h2>{% endif %}
+                      <h2 style="text-transform:uppercase">{{ block.settings.mul_cap_heading }}</h2>{% endif %}
                     {%- if block.settings.ingrediant_content != blank -%}
                     <h2>|<br>from<br>{{ block.settings.ingrediant_content }}</h2>
                     {%- endif -%}
