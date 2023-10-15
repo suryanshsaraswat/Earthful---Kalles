@@ -146,6 +146,13 @@
         "time": 3
       }
     },
+    "61dd87b3-fe5f-41d9-ac8d-9ab8d922d965": {
+      "type": "pr-video",
+      "settings": {
+        "video_head": "How To Use, Daily?",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/de8d3e2e821b4266aa5a7236493b6a5e.mov"
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -346,6 +353,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "61dd87b3-fe5f-41d9-ac8d-9ab8d922d965",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"
