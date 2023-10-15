@@ -208,6 +208,35 @@
         "mobile_img": "shopify:\/\/shop_images\/Mobile_BONE_HEALTH_PRODUCT_PAGEAGE-1_2b49ed2d-daca-40de-965f-af38323c023c.png"
       }
     },
+    "41a7cbdc-1e5f-4a29-9535-74a65d59e115": {
+      "type": "pr-multicolumn",
+      "blocks": {
+        "de5d5bfc-213d-4899-8c4a-19540b1093e1": {
+          "type": "image",
+          "settings": {
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        },
+        "88615ca0-6f97-4162-9d1f-b0831c682490": {
+          "type": "image",
+          "settings": {
+            "mul_cap_heading": "CUMIN",
+            "ingredient_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "de5d5bfc-213d-4899-8c4a-19540b1093e1",
+        "88615ca0-6f97-4162-9d1f-b0831c682490"
+      ],
+      "settings": {
+        "mc_heading": "See Through Us!",
+        "view_more_checkbox": true,
+        "btt_text": "",
+        "Btt_link": ""
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -403,35 +432,6 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "41a7cbdc-1e5f-4a29-9535-74a65d59e115": {
-      "type": "pr-multicolumn",
-      "blocks": {
-        "de5d5bfc-213d-4899-8c4a-19540b1093e1": {
-          "type": "image",
-          "settings": {
-            "mul_cap_heading": "CUMIN",
-            "ingredient_html": ""
-          }
-        },
-        "88615ca0-6f97-4162-9d1f-b0831c682490": {
-          "type": "image",
-          "settings": {
-            "mul_cap_heading": "CUMIN",
-            "ingredient_html": ""
-          }
-        }
-      },
-      "block_order": [
-        "de5d5bfc-213d-4899-8c4a-19540b1093e1",
-        "88615ca0-6f97-4162-9d1f-b0831c682490"
-      ],
-      "settings": {
-        "mc_heading": "See Through Us!",
-        "view_more_checkbox": true,
-        "btt_text": "",
-        "Btt_link": ""
-      }
     }
   },
   "order": [
@@ -441,9 +441,9 @@
     "0ff47adb-fd0f-495a-9880-4980668fd65f",
     "39bd98db-147c-468c-bc5e-5e5cf6c44048",
     "a3c00b45-1bf8-46ad-96ba-379a51e5ad6e",
+    "41a7cbdc-1e5f-4a29-9535-74a65d59e115",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products",
-    "41a7cbdc-1e5f-4a29-9535-74a65d59e115"
+    "recently-viewed-products"
   ]
 }
