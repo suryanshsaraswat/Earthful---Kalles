@@ -3,7 +3,7 @@
       height: 55px;
   }
   .t4s-sticky-atc {
-      bottom: 55px;
+      bottom: 174px;
       border-bottom: 1px solid var(--border-color);
       -webkit-transform: translate3d(0,calc( 105% + 55px),0) !important;
       transform: translate3d(0,calc( 105% + 55px),0) !important;
