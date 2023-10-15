@@ -1,3 +1,20 @@
+<style>
+  .desktop.banner {
+    display: block;
+    max-width: 100%;
+}
+  .mobile.banner {
+    display: none;
+}
+  @media(max-width:450px){
+    .mobile.banner {
+    display: block;
+}
+    .desktop.banner {
+    display: none;
+}
+  }
+</style>
 <div class="container-pr banner">
   <div class="desktop banner">
     <img src="{{ section.settings.desktop_img | img_url:'master' }}">
