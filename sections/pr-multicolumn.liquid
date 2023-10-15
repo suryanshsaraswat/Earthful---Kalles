@@ -118,12 +118,6 @@
             $('.modal-{{ i }}').removeClass('show');
             $('body').css("overflow","visible");
         });
-        $(".vieew").click(function(){
-            $(".view-more-sim").slideDown(300);
-        });
-        $(".vieew-less").click(function(){
-            $('.view-more-sim').slideUp(300);
-        })
     });
 </script>
                 {% endfor %}
@@ -167,6 +161,16 @@
        
         {% endif %}
 </div>
+  <script>
+    $(document).ready(function(){
+      $(".vieew").click(function(){
+        $(".view-more-sim").slideDown(300);
+      });
+      $(".vieew-less").click(function(){
+        $('.view-more-sim').slideUp(300);
+      });
+    })
+  </script>
 
 {% schema %}
     {
