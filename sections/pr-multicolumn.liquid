@@ -26,6 +26,8 @@
 <div class="Container multi">
     <div class="multicolu-mn-parent">
       <h2>{{ section.settings.mc_heading }}</h2>
+      {% if section.settings.mc_text != blank %}
+        <p>{{ section.settings.mc_text }}</p>{% endif %}
         <div class="multi-column-childs-flex">
             {% for block in section.blocks %}
                 <div class="main-flex">
@@ -99,6 +101,11 @@
                 "label":"Heading",
                 "default": "See Through Us!"
             },
+          {
+            "type":"text",
+            "id":"mc_text",
+            "label":"decription"
+          },
             {
                 "type": "checkbox",
                 "id": "view_more_checkbox",
