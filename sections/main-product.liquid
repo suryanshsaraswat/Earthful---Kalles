@@ -747,14 +747,7 @@ endif -%}
 
                 {%- when 'html' %}{% if bk_stts.page == blank %}{% continue %}{% endif -%}
                   <div class="t4s-custom_{{ bk_id }} t4s-pr__html t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.page }}</div>
-
-                  {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
-                  <div class="t4s-richtext_{{ bk_id }} t4s-pr__richtext t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.text }}</div>
-
-                {%- when 'custom_liquid' -%}
-                  <div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-liquid t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
-                  {%- when 'custom_code' -%}
-                    <div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-code t4s-rte" {{ block.shopify_attributes }}>
+                  {% if block.settings.custom_code_heading != blank %}<div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-code t4s-rte" {{ block.shopify_attributes }}>
                       <h2>{{ block.settings.custom_code_heading }}</h2>
                       <div class="code-flex">
                         <div class="img-flex">
@@ -762,7 +755,13 @@ endif -%}
                         </div>
                         <div clas="code-text">{{ block.settings.custom_html_code }}</div>
                       </div>
-                    </div>
+                    </div>{% endif %}
+
+                  {%- when 'text' -%}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
+                  <div class="t4s-richtext_{{ bk_id }} t4s-pr__richtext t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.text }}</div>
+
+                {%- when 'custom_liquid' -%}
+                  <div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-liquid t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
 
                 {%- when '@app' -%}
                   {%- render block -%}
@@ -4169,7 +4168,7 @@ endif -%}
       ]
     },
     {
-      "type": "custom_code",
+      "type": "html",
       "name": "Custom code",
       "settings": [
         {
