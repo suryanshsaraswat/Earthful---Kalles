@@ -136,7 +136,7 @@
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
         "settings": {
-          "hidden_bottombar": false,
+          "hidden_bottombar": true,
           "border_top": false,
           "border_pos": "in",
           "space_h_item": "30",

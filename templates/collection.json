@@ -195,7 +195,7 @@
         "filter_id": {
           "type": "filter",
           "settings": {
-            "style_filters": "sidebar"
+            "style_filters": "area"
           }
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
