@@ -262,6 +262,58 @@
         "Btt_link": ""
       }
     },
+    "1d5686f3-0086-4f69-8e49-2fbef7a220bf": {
+      "type": "multi-column-images",
+      "blocks": {
+        "6f66ad4b-bf7e-4c2c-abb8-9e62e071f32b": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icon_6_e5c0282a-a2f8-46d3-8de9-a51b03dd159e.png"
+          }
+        },
+        "490e7d80-5534-4b12-8130-1c9bc41be30f": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icons-01_8803df6c-b420-486c-9fff-d8ca59d20228.png"
+          }
+        },
+        "90716e6b-db41-4f1d-accf-a169034de3bf": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icons-02_87140c15-3a70-4c28-8efd-0120cb070471.png"
+          }
+        },
+        "496ff115-b89c-4f94-a5ef-c69774c31dc4": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icons-03_678f6c10-b4c4-40d5-ac14-d79da221f098.png"
+          }
+        },
+        "bac001cd-9bc6-4cd8-981d-1a502455f623": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icons-07_afe090c6-b479-4be7-ba9e-1b4f38c1fada.png"
+          }
+        },
+        "cb329ec3-c464-4266-a34c-ada2127106f9": {
+          "type": "image",
+          "settings": {
+            "icon_img": "shopify:\/\/shop_images\/icons-04_070be71a-a4a8-4d0c-bf71-39ce463fd487.png"
+          }
+        }
+      },
+      "block_order": [
+        "6f66ad4b-bf7e-4c2c-abb8-9e62e071f32b",
+        "490e7d80-5534-4b12-8130-1c9bc41be30f",
+        "90716e6b-db41-4f1d-accf-a169034de3bf",
+        "496ff115-b89c-4f94-a5ef-c69774c31dc4",
+        "bac001cd-9bc6-4cd8-981d-1a502455f623",
+        "cb329ec3-c464-4266-a34c-ada2127106f9"
+      ],
+      "settings": {
+        "icon_heading": "Our Clean Promise"
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -457,58 +509,6 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "1d5686f3-0086-4f69-8e49-2fbef7a220bf": {
-      "type": "multi-column-images",
-      "blocks": {
-        "6f66ad4b-bf7e-4c2c-abb8-9e62e071f32b": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icon_6_e5c0282a-a2f8-46d3-8de9-a51b03dd159e.png"
-          }
-        },
-        "490e7d80-5534-4b12-8130-1c9bc41be30f": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icons-01_8803df6c-b420-486c-9fff-d8ca59d20228.png"
-          }
-        },
-        "90716e6b-db41-4f1d-accf-a169034de3bf": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icons-02_87140c15-3a70-4c28-8efd-0120cb070471.png"
-          }
-        },
-        "496ff115-b89c-4f94-a5ef-c69774c31dc4": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icons-03_678f6c10-b4c4-40d5-ac14-d79da221f098.png"
-          }
-        },
-        "bac001cd-9bc6-4cd8-981d-1a502455f623": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icons-07_afe090c6-b479-4be7-ba9e-1b4f38c1fada.png"
-          }
-        },
-        "cb329ec3-c464-4266-a34c-ada2127106f9": {
-          "type": "image",
-          "settings": {
-            "icon_img": "shopify:\/\/shop_images\/icons-04_070be71a-a4a8-4d0c-bf71-39ce463fd487.png"
-          }
-        }
-      },
-      "block_order": [
-        "6f66ad4b-bf7e-4c2c-abb8-9e62e071f32b",
-        "490e7d80-5534-4b12-8130-1c9bc41be30f",
-        "90716e6b-db41-4f1d-accf-a169034de3bf",
-        "496ff115-b89c-4f94-a5ef-c69774c31dc4",
-        "bac001cd-9bc6-4cd8-981d-1a502455f623",
-        "cb329ec3-c464-4266-a34c-ada2127106f9"
-      ],
-      "settings": {
-        "icon_heading": "Our Clean Promise"
-      }
     }
   },
   "order": [
@@ -519,9 +519,9 @@
     "39bd98db-147c-468c-bc5e-5e5cf6c44048",
     "a3c00b45-1bf8-46ad-96ba-379a51e5ad6e",
     "41a7cbdc-1e5f-4a29-9535-74a65d59e115",
+    "1d5686f3-0086-4f69-8e49-2fbef7a220bf",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products",
-    "1d5686f3-0086-4f69-8e49-2fbef7a220bf"
+    "recently-viewed-products"
   ]
 }
