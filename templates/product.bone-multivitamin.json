@@ -159,6 +159,48 @@
         "pr_icons": "shopify:\/\/shop_images\/Group_39_1.png"
       }
     },
+    "39bd98db-147c-468c-bc5e-5e5cf6c44048": {
+      "type": "how-to-use-timeline",
+      "blocks": {
+        "67fb03cd-4969-442b-886f-0883bd05ac36": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Bone Strengthening",
+            "block_text": "Starts the process of filling the body's calcium deficiency."
+          }
+        },
+        "76fb1dca-4e50-4cea-8845-810c56f2abb2": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Calcium Absorption",
+            "block_text": "Improves bone mineral density with Magnesium, calcium, Vitamin D"
+          }
+        },
+        "fcc4ffd5-7d8c-4f5e-8a40-0d7b9ff7c48d": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Joint Health",
+            "block_text": "Vitamin K2  relieves joint pains & maintains the structural integrity of the bone"
+          }
+        },
+        "24d9b2bd-e465-45f7-a481-796ee6c51623": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Better Bone Health!",
+            "block_text": "Bone density, strength and mass - all check!"
+          }
+        }
+      },
+      "block_order": [
+        "67fb03cd-4969-442b-886f-0883bd05ac36",
+        "76fb1dca-4e50-4cea-8845-810c56f2abb2",
+        "fcc4ffd5-7d8c-4f5e-8a40-0d7b9ff7c48d",
+        "24d9b2bd-e465-45f7-a481-796ee6c51623"
+      ],
+      "settings": {
+        "timeline-heading": "How it Works?"
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -361,6 +403,7 @@
     "main",
     "61dd87b3-fe5f-41d9-ac8d-9ab8d922d965",
     "0ff47adb-fd0f-495a-9880-4980668fd65f",
+    "39bd98db-147c-468c-bc5e-5e5cf6c44048",
     "sidebar",
     "product-recommendations",
     "recently-viewed-products"
