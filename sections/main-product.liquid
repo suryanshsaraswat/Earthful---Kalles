@@ -753,6 +753,16 @@ endif -%}
 
                 {%- when 'custom_liquid' -%}
                   <div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-liquid t4s-rte" {{ block.shopify_attributes }}>{{ bk_stts.custom_liquid }}</div>
+                  {%- when 'custom_code' -%}
+                    <div class="t4s-liquid_{{ bk_id }} t4s-pr__custom-code t4s-rte" {{ block.shopify_attributes }}>
+                      <h2>{{ block.settings.custom_code_heading }}</h2>
+                      <div class="code-flex">
+                        <div class="img-flex">
+                          <h2><img src="{{ block.settings.custom_code_image |  img_url: 'master' }}" alt="" style="width:60px;height:60px"></h2>
+                        </div>
+                        <div clas="code-text">{{ block.settings.custom_html_code }}</div>
+                      </div>
+                    </div>
 
                 {%- when '@app' -%}
                   {%- render block -%}
@@ -4155,6 +4165,27 @@ endif -%}
           "id": "custom_liquid",
           "label": "Custom Liquid",
           "info": "Add app snippets or other Liquid code to create advanced customizations."
+        }
+      ]
+    },
+    {
+      "type": "custom_code",
+      "name": "Custom code",
+      "settings": [
+        {
+          "type": "text",
+          "id": "custom_code_heading",
+          "label": "Enter Heading"
+        },
+        {
+          "type":"image_picker",
+          "id":"custom_code_image",
+          "label":"Select image"
+        },
+        {
+          "type":"HTML",
+          "id":"custom_html_code",
+          "label":"Enter Custom HTML"
         }
       ]
     },
