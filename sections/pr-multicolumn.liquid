@@ -138,11 +138,11 @@
 <script>
     $(document).ready(function(){
         $('.modal-{{ i }}').on("click",function(){
-            $('.{{ i }}').css("display","block");
+            $('.{{ i }}').addClass('show');
             $('body').css("overflow","hidden");
         });
         $('.close').on("click",function(){
-            $('.modal-{{ i }}')css("display","none");
+            $('.modal-{{ i }}').removeClass('show');
             $('body').css("overflow","visible");
         });
         $(".vieew").click(function(){
