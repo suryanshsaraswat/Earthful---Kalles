@@ -1,7 +1,24 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Product USP banner",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"desktop_img",
+        "label":"Select Desktop Adapt"
+      },
+      {
+        "type":"image_picker",
+        "id":"mobile_img",
+        "label":"Select Mobile Adapt"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Product USP Banner",
+        "category":"product"
+      }
+    ]
   }
 {% endschema %}
 
