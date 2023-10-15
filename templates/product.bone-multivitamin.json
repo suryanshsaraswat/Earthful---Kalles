@@ -228,16 +228,36 @@
             "ingrediant_content": "Algae Lithothamnion",
             "ingredient_html": "<p class=\"pop-subhead\">The Bone Savior<\/p>\n<p class=\"pop-subhead1\">Form - Calcium Carbonate | Source -Algae Lithothamnion<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Say yes to this red marine algae for a plant based calcium source for your strong bones.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\"> Calcium from plant based sources is better absorbed by your body then that from the sources.Vitamin D  is essential for its absorption as vitamin C  for iron.<\/p>"
           }
+        },
+        "966866a6-f6ac-41b7-92c3-d308e7772d02": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Algae_Lithothamnion_Capsule_a8443ffa-8b00-493d-b5e2-dacb59de2035.png",
+            "mul_cap_heading": "Magnesium",
+            "ingrediant_content": "Algae Lithothamnion",
+            "ingredient_html": "<p class=\"pop-subhead\">Magnifies the bone strength<\/p>\n<p class=\"pop-subhead1\">Form - Magnesium | Source - Algae Lithothamnion, Marine Salts<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Not just calcium but also magnesium plays a crucial role in bone health. Meeting your body demands of magnesium can make your bones, heart and nerve health. Adding this to your diet can help you reap its benefits.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\"> Been stressing a lot? Beware you might be diminishing your magnesium levels by stressing out.<\/p>"
+          }
+        },
+        "a0f4c184-aa59-4f2f-9df0-a0719c8f75bc": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/VitaminK2_Chickpea_0b4aa2d8-97aa-4f4f-b142-7679a87e6733.png",
+            "mul_cap_heading": "VITAMIN K2",
+            "ingrediant_content": "Fermented Chickpeas",
+            "ingredient_html": "<p class=\"pop-subhead\">The Backend Support<\/p>\n<p class=\"pop-subhead1\">FORM-MENAQUINONE(MK7)|SOURCE-FERMENTED CHICKPEAS<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">\nThe form of K2 MK7 we use is made by fermentation and this has better bioavailability than the other forms available.\n<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nVitamin K2 was discovered as 'Activator X,' the missing ingredient for tooth and bone health. Still, till date, there's lot more left to discover about the vitamin.\n<\/p>"
+          }
         }
       },
       "block_order": [
         "de5d5bfc-213d-4899-8c4a-19540b1093e1",
-        "88615ca0-6f97-4162-9d1f-b0831c682490"
+        "88615ca0-6f97-4162-9d1f-b0831c682490",
+        "966866a6-f6ac-41b7-92c3-d308e7772d02",
+        "a0f4c184-aa59-4f2f-9df0-a0719c8f75bc"
       ],
       "settings": {
         "mc_heading": "See Through Us!",
         "mc_text": "We uphold transparency right from selecting our ingredients to the point they reach you. Rest assured, you will know as much as we do. Not any less.",
-        "view_more_checkbox": true,
+        "view_more_checkbox": false,
         "btt_text": "",
         "Btt_link": ""
       }
