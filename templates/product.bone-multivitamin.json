@@ -30,24 +30,24 @@
             "page": "<p style=\"font-size:21px;margin:0;\">With Calcium, Magnesium, Vitamin D3 &amp; K2 <\/p>"
           }
         },
-        "6afe32e0-5c11-4945-8ba8-4fda8f669a6f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'pr_description' %}"
-          }
-        },
         "price_review": {
           "type": "price_review",
           "settings": {
             "price": "0",
             "type_sale": "0",
-            "tax_ship": true,
+            "tax_ship": false,
             "rating": false,
             "review_liquid": "",
             "size_price_pr": 22,
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
+          }
+        },
+        "179efd13-a8f2-4564-b9ea-453ffe820230": {
+          "type": "html",
+          "settings": {
+            "page": "<ul style=\"padding-left:20px;\">\n<li>India's 1st Vitamin formula sourced ONLY from Plants <\/li>\n<li>Vegetarian Capsule shell <\/li>\n<li>Over 18 years of age <\/li>\n<li>60 Capsules (30 day pack)<\/li>\n<li>100% Plant. No side effects<\/li>\n<li>Researched by doctors, nutritionists<\/li>\n<li>FSSAI &amp; GMP approved<\/li>\n<\/ul>"
           }
         },
         "form": {
@@ -94,8 +94,8 @@
       "block_order": [
         "title",
         "dc48d218-57c1-4a20-865b-0722aa8fa7be",
-        "6afe32e0-5c11-4945-8ba8-4fda8f669a6f",
         "price_review",
+        "179efd13-a8f2-4564-b9ea-453ffe820230",
         "form"
       ],
       "settings": {
