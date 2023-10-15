@@ -314,6 +314,31 @@
         "icon_heading": "Our Clean Promise"
       }
     },
+    "46ba6ce7-c027-42c8-a0a7-a934ff426f71": {
+      "type": "image-flex",
+      "blocks": {
+        "7614f5eb-8af3-4539-aea7-1a70e825bb12": {
+          "type": "image",
+          "settings": {
+            "flex_img": "shopify:\/\/shop_images\/Why_section_3814357f-6723-4f39-8d20-529e06cc5f2f.png",
+            "flex-head": "Why healthy bones calcium + D3 + K2",
+            "flex-text": "To Meet Your Daily Calcium, You Need 4-5 cups of Curd !Adults suffer from bone problems due to Calcium deficiency. Bones are 99% calciumEarthful Healthy Bones also contain Vitamin D3, K2 which boost Calcium absorption It is 100% Plant Derived. Nothing Artificial. No side effects.Complete transparency. The ingredients are listed on the front of the pack.",
+            "flex_link": "shopify:\/\/blogs\/blog\/are-you-getting-enough-calcium",
+            "flex_link_text": "Read full reasearch here >>",
+            "color_bg_text": "#96b5b8",
+            "layout_flex": "img_first"
+          }
+        }
+      },
+      "block_order": [
+        "7614f5eb-8af3-4539-aea7-1a70e825bb12"
+      ],
+      "custom_css": [
+        ".main-container{padding-top:30px}"
+      ],
+      "settings": {
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -509,28 +534,6 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "46ba6ce7-c027-42c8-a0a7-a934ff426f71": {
-      "type": "image-flex",
-      "blocks": {
-        "7614f5eb-8af3-4539-aea7-1a70e825bb12": {
-          "type": "image",
-          "settings": {
-            "flex_img": "shopify:\/\/shop_images\/Why_section_3814357f-6723-4f39-8d20-529e06cc5f2f.png",
-            "flex-head": "Why healthy bones calcium + D3 + K2",
-            "flex-text": "To Meet Your Daily Calcium, You Need 4-5 cups of Curd !Adults suffer from bone problems due to Calcium deficiency. Bones are 99% calciumEarthful Healthy Bones also contain Vitamin D3, K2 which boost Calcium absorption It is 100% Plant Derived. Nothing Artificial. No side effects.Complete transparency. The ingredients are listed on the front of the pack.",
-            "flex_link": "shopify:\/\/blogs\/blog\/are-you-getting-enough-calcium",
-            "flex_link_text": "Read full reasearch here >>",
-            "color_bg_text": "#96b5b8",
-            "layout_flex": "img_first"
-          }
-        }
-      },
-      "block_order": [
-        "7614f5eb-8af3-4539-aea7-1a70e825bb12"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -542,9 +545,9 @@
     "a3c00b45-1bf8-46ad-96ba-379a51e5ad6e",
     "41a7cbdc-1e5f-4a29-9535-74a65d59e115",
     "1d5686f3-0086-4f69-8e49-2fbef7a220bf",
+    "46ba6ce7-c027-42c8-a0a7-a934ff426f71",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products",
-    "46ba6ce7-c027-42c8-a0a7-a934ff426f71"
+    "recently-viewed-products"
   ]
 }
