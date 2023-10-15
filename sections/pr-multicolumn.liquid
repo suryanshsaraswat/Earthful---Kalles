@@ -107,6 +107,23 @@
                         </div>
                     </div>
                 </div>  
+          $(document).ready(function(){
+        $('.modal-{{ i }}').on("click",function(){
+            $('.{{ i }}').addClass('show');
+            $('body').css("overflow","hidden");
+        });
+        $('.close').on("click",function(){
+            $('.modal-{{ i }}').removeClass('show');
+            $('body').css("overflow","visible");
+        });
+        $(".vieew").click(function(){
+            $(".view-more-sim").slideDown(300);
+        });
+        $(".vieew-less").click(function(){
+            $('.view-more-sim').slideUp(300);
+        })
+    });
+</script>
                 {% endfor %}
         </div>
         {% if section.settings.view_more_checkbox %}
