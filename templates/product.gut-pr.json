@@ -292,7 +292,8 @@
         "0151f483-b73f-4306-b6e9-b96af3cdec9f": {
           "type": "box",
           "settings": {
-            "ingrediant_title": "Vitamin",
+            "bg_image": "shopify:\/\/shop_images\/Cumin_Capsule_fbc0956d-6b42-45cf-b9ff-e29820f6a158_2.png",
+            "ingrediant_title": "CUMIN",
             "ingrediant_content": "",
             "ingrediant_html": ""
           }
@@ -300,7 +301,8 @@
         "e9a79370-b066-48bc-9c67-2a46627c5a55": {
           "type": "box",
           "settings": {
-            "ingrediant_title": "Vitamin",
+            "bg_image": "shopify:\/\/shop_images\/Triphala_Capsule_1.png",
+            "ingrediant_title": "TRIPHALA",
             "ingrediant_content": "",
             "ingrediant_html": ""
           }
@@ -308,7 +310,8 @@
         "11f98177-7e16-4edc-9c87-0d8c20fb540c": {
           "type": "box",
           "settings": {
-            "ingrediant_title": "Vitamin",
+            "bg_image": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_1.png",
+            "ingrediant_title": "PSYLIUM",
             "ingrediant_content": "",
             "ingrediant_html": ""
           }
@@ -316,7 +319,8 @@
         "49e2c460-6e48-4943-b1dd-5d08b3ebd95f": {
           "type": "box",
           "settings": {
-            "ingrediant_title": "Vitamin",
+            "bg_image": "shopify:\/\/shop_images\/Ajwain_Capsule_1.png",
+            "ingrediant_title": "AJWAIN",
             "ingrediant_content": "",
             "ingrediant_html": ""
           }
@@ -347,8 +351,8 @@
         "79ee7b6a-6e15-4c9f-a38b-25cc2c3de811"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "section_id": "multicolumnid",
+        "title": "See Through Us",
+        "pr_desccc": "We uphold transparency right from selecting our ingredients to the point they reach you. Rest assured, you will know as much as we do. Not any less.",
         "viewmore": true,
         "viewmoretext": ""
       }
