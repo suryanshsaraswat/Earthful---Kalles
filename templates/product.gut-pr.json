@@ -24,17 +24,22 @@
             "pr_title_color": "#222222"
           }
         },
+        "6af2bb8c-ab2f-41b9-960d-3a7ddb30fd4f": {
+          "type": "html",
+          "settings": {
+            "page": "<p style=\"font-size:21px;margin:0;\">Solution for Acidity &amp; Constipation \n<\/p>"
+          }
+        },
         "6afe32e0-5c11-4945-8ba8-4fda8f669a6f": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% render 'pr_description' %}"
           }
         },
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
-          "type": "tab_des",
-          "disabled": true,
+        "86a97727-f6d0-47f1-81d7-9295fb5cd365": {
+          "type": "html",
           "settings": {
-            "title": "Description"
+            "page": "<ul style=\"padding-left:20px;\">\n<li>With goodness of Triphala, Ajwain, Fennel &amp; More<\/li>\n<li>Over 18 years of age <\/li>\n<li>75 grams powder (30 day pack)<\/li> \n<li>100% Plant. No side effects.<\/li>\n<li>Formulated by doctors, nutritionists<\/li>\n<li>FSSAI &amp; GMP approved<\/li>\n<\/ul>"
           }
         },
         "price_review": {
@@ -49,17 +54,6 @@
             "fw_price_pr": 400,
             "price_color": "#696969",
             "price_sale_color": "#ec0101"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "des": "2",
-            "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
-            "length": 31,
-            "readm": false,
-            "readm_txt": "Read more"
           }
         },
         "form": {
@@ -101,112 +95,15 @@
 
             ]
           }
-        },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 90,
-            "svg": "american_express,diners_club,google_pay,jcb,maestro,master,visa",
-            "height": 46
-          }
-        },
-        "size_delivery_ask": {
-          "type": "size_delivery_ask",
-          "disabled": true,
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "size-chart",
-            "size_ck": "",
-            "delivery": true,
-            "page_dr": "delivery-return",
-            "ask": true,
-            "phone": true
-          }
-        },
-        "meta": {
-          "type": "meta",
-          "disabled": true,
-          "settings": {
-            "show_options": false,
-            "show_vendor": false,
-            "show_type": false,
-            "show_sku": true,
-            "show_barcode": false,
-            "show_available": true,
-            "show_category": true,
-            "show_tags": true
-          }
-        },
-        "e36839f5-0847-44e2-97d3-2885597bd1ff": {
-          "type": "tab_add",
-          "settings": {
-            "title": "Additional Information"
-          }
-        },
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
-          "type": "tab_html",
-          "settings": {
-            "title": "Custom tab",
-            "content": "",
-            "page": "wash-care"
-          }
-        },
-        "56e67368-7424-4d73-8f14-dacdda4c59be": {
-          "type": "tab_rivui",
-          "disabled": true,
-          "settings": {
-            "title": "Reviews",
-            "review_liquid": ""
-          }
-        },
-        "94011ade-ec25-4d68-b37a-70660ede49dd": {
-          "type": "social",
-          "disabled": true,
-          "settings": {
-            "socials_align": "start",
-            "social_mode": "2",
-            "social_style": "1",
-            "social_size": "extra_small",
-            "bd_radius": 0,
-            "use_color_set": true,
-            "icon_cl": "#222222",
-            "bg_cl": "#00badb",
-            "space_h_item": "20",
-            "space_v_item": "5",
-            "space_h_item_mb": "20",
-            "space_v_item_mb": "4"
-          }
-        },
-        "bded529b-9b8f-4d5c-8f04-5de0b22e627d": {
-          "type": "tab_html",
-          "settings": {
-            "title": "Collapsible tab",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "title",
+        "6af2bb8c-ab2f-41b9-960d-3a7ddb30fd4f",
         "6afe32e0-5c11-4945-8ba8-4fda8f669a6f",
-        "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
+        "86a97727-f6d0-47f1-81d7-9295fb5cd365",
         "price_review",
-        "description",
-        "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
-        "size_delivery_ask",
-        "meta",
-        "e36839f5-0847-44e2-97d3-2885597bd1ff",
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
-        "56e67368-7424-4d73-8f14-dacdda4c59be",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
-        "bded529b-9b8f-4d5c-8f04-5de0b22e627d"
+        "form"
       ],
       "settings": {
         "pr_layout": "default",
@@ -262,6 +159,70 @@
         "desktop_image": "shopify:\/\/shop_images\/Gut_powder_67541908-8908-4271-893d-70ab67154f8d.png",
         "mobile_image": "shopify:\/\/shop_images\/Mobile_Gut_Health_1_101e8b57-ccef-4d6b-94c0-78d557f136f0.png",
         "linking_image": ""
+      }
+    },
+    "e6258889-9000-4ef9-a32a-158ebaec207a": {
+      "type": "pr-video",
+      "settings": {
+        "video_head": "How To Use?",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/417f8d73afc8417bb72799c0e59dc540.mov"
+      }
+    },
+    "3bdcda21-cb61-4c6a-ae2c-41800ad3f5d6": {
+      "type": "pr-icons",
+      "settings": {
+        "pr_icons": "shopify:\/\/shop_images\/Gut-reset.webp"
+      }
+    },
+    "572982eb-3b36-4dba-8853-7d41f4e8b147": {
+      "type": "how-to-use-timeline",
+      "blocks": {
+        "7132208a-c3bd-4790-a4bd-25b9b3379551": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Healing Gut",
+            "block_text": "Treats leaky gut. Starts the growth of good bacteria."
+          }
+        },
+        "ec841bc4-5c62-4cae-9014-191bacf4137d": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Acid Control",
+            "block_text": "Prevents gastric inflammation and reduces the acidity frequency"
+          }
+        },
+        "8267a0b9-83f7-449b-8eec-d64cc34fd140": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Microbiota Restoration",
+            "block_text": "Restores gut balance"
+          }
+        },
+        "c95126ab-842c-498b-ae62-f6cf8ebb2df6": {
+          "type": "page",
+          "settings": {
+            "block_heading": "Healthy Gut with Earthful, Done!",
+            "block_text": "Earthful with changes in diet = Good Digestive system"
+          }
+        }
+      },
+      "block_order": [
+        "7132208a-c3bd-4790-a4bd-25b9b3379551",
+        "ec841bc4-5c62-4cae-9014-191bacf4137d",
+        "8267a0b9-83f7-449b-8eec-d64cc34fd140",
+        "c95126ab-842c-498b-ae62-f6cf8ebb2df6"
+      ],
+      "settings": {
+        "timeline-heading": "How it Works?"
+      }
+    },
+    "225604cf-5cd0-4216-8f90-d0ca4a5f82e5": {
+      "type": "schema-test",
+      "settings": {
+        "mc_heading": "See Through Us!",
+        "view_more_checkbox": true,
+        "btt_text": "",
+        "Btt_link": ""
       }
     },
     "1696769764e355cd70": {
@@ -475,68 +436,19 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "2bd404a4-b867-4efb-9791-8dee8c264f8e": {
-      "type": "pr_multicolumn",
-      "blocks": {
-        "87a96afc-b370-42a0-9ba5-09789c2d23e8": {
-          "type": "box",
-          "settings": {
-            "bg_image": "shopify:\/\/shop_images\/Cumin_Capsule_166be0e0-5077-4e60-8a09-da5e3a02c619.png",
-            "ingrediant_title": "CUMIN",
-            "ingrediant_content": "",
-            "ingrediant_html": "<p class=\"pop-subhead\">A HERB WHICH DESERVES ALL THE LOVE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Cuminum cyminum<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Never knew a tiny seed could carry such a power. A powerful antioxidant, cumin also promotes digestion, boost your body and your mind.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nDo you ever wonder if cumin could be used to pay taxes? Well it could have been possible if you were still living in the Middle Age. Cumin was also believed to help chickens and lovers from running away. It was even carried during weddings with a belief that it could bring happiness\n<\/p>"
-          }
-        },
-        "d582d7d6-b9e5-4e18-a8cf-ef93412dcde2": {
-          "type": "box",
-          "settings": {
-            "bg_image": "shopify:\/\/shop_images\/Triphala_Capsule_0eecfa06-e28e-4aeb-be72-d6c83ddcb4ca.png",
-            "ingrediant_title": "triphala",
-            "ingrediant_content": "",
-            "ingrediant_html": "<p class=\"pop-subhead\">The Great Panacea<\/p>\n<p class=\"pop-subhead1\">Botanical Names - \nEmblica officinalis (Amla) +\nTerminalia chebula (Haritaka) +\nTerminalia bellirica (Bibitaki)<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Meet Triphala, a well known herbal remedy made by using three powerful plants namely Amla, Haritaka and Bibhitaki. All these ingredients are combined in equal proportions to form what is called Triphala.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nTriphala is a polyherb medicine which is made by joining two words, \"tri\" which means three and \"phala\" meaning fruits. It is a comibination of three dried fruits namely Amalaki, Bibhitaki, Haritaki\n<\/p>"
-          }
-        },
-        "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1": {
-          "type": "box",
-          "settings": {
-            "bg_image": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_c6c57ea8-980a-43bf-97a0-a8d930c5a3d6.png",
-            "ingrediant_title": "Vitamin",
-            "ingrediant_content": "",
-            "ingrediant_html": ""
-          }
-        }
-      },
-      "block_order": [
-        "87a96afc-b370-42a0-9ba5-09789c2d23e8",
-        "d582d7d6-b9e5-4e18-a8cf-ef93412dcde2",
-        "c5c7bbb2-b17f-4de5-b65c-a07d46a59fc1"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "section_id": "multicolumnid",
-        "viewmore": false,
-        "viewmoretext": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
     "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e",
+    "e6258889-9000-4ef9-a32a-158ebaec207a",
+    "3bdcda21-cb61-4c6a-ae2c-41800ad3f5d6",
+    "572982eb-3b36-4dba-8853-7d41f4e8b147",
+    "225604cf-5cd0-4216-8f90-d0ca4a5f82e5",
     "1696769764e355cd70",
     "sidebar",
     "product-recommendations",
-    "recently-viewed-products",
-    "2bd404a4-b867-4efb-9791-8dee8c264f8e"
+    "recently-viewed-products"
   ]
 }
