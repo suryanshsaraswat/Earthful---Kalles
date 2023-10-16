@@ -257,7 +257,7 @@
       "settings": {
         "mc_heading": "See Through Us!",
         "mc_text": "We uphold transparency right from selecting our ingredients to the point they reach you. Rest assured, you will know as much as we do. Not any less.",
-        "view_more_checkbox": true,
+        "view_more_checkbox": false,
         "btt_text": "",
         "Btt_link": ""
       }
