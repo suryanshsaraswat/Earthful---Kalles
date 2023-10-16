@@ -96,7 +96,6 @@
                     <h2>|<br>from<br>{{ block.settings.ingrediant_content }}</h2>
                     {%- endif -%}
                       </div>
-                    
                     </div>
                     <div class="popover-content-block">
                         <div class="modal-mc modal-{{ i }}" id="open-model">
@@ -132,14 +131,14 @@
                 {% for block in section.blocks %}
                   {% assign j=j | plus: 1 %}
                     <div class="main-flex">
-                        <div class="multi-column-image open-modal-{{ j }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap | img_url:'400x' }})">
-                        {{- block.settings.mul_cap_heading -}}
+                        <div class="multi-column-image open-modal-{{ j }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap_hidden | img_url:'400x' }})">
+                        {{- block.settings.mul_cap_heading_hidden -}}
                         </div>
                         <div class="popover-content-block">
                             <div class="modal-mc modal-{{ j }}" id="open-model-{{ j }}">
                                 <div class="modal-mc-content">
                                     <span class="close close-{{ j }}">&times;</span>
-                                    {{ block.settings.ingredient_html }}
+                                    {{ block.settings.ingredient_html_hidden }}
                                 </div>
                             </div>
                         </div>
