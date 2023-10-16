@@ -1,3 +1,4 @@
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 <div class="multicolumn_new_section multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="overlay-bg"></div>
   <div class="page-width">
