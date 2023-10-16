@@ -110,7 +110,7 @@
       {% assign i = 0 %}      
 {% for block in section.blocks  %}
 {% assign i = i | plus: 1 %}{%- case block.type -%}{% when 'other' %}
-        <li style="background-image:url({{ block.settings.bg_image | img_url: 'master' }}) !important;background-size: 94%;min-height:290px;background-repeat: no-repeat;background-position: 10px 0px;margin-bottom:30px;display:flex;" class="link disable-toggle multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}">
+        <li style="background-image:url({{ block.settings.bg_image | img_url: 'master' }}) !important;background-size: 94%;min-height:290px;background-repeat: no-repeat;background-position: 10px 0px;margin-bottom:30px;display:flex;justify-content: center;align-items: center;" class="link disable-toggle multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}">
 
           <div class="multicolumn-card link{{ i }} " style="position:relative;">
             <div class="multicolumn-card__info" style="text-align:center;">
