@@ -122,46 +122,43 @@
                 {% endfor %}
         </div>
         {% if section.settings.view_more_checkbox %}
-        <div class="vieew">
-            view more
-        </div>
-        <div class="view-more-sim" style="display:none">
-            <div class="multi-column-childs-flex">
+          <div class="vieew">view more</div>
+      <div class="view-more-sim" style="display:none">
+        <div class="multi-column-childs-flex">
           {% assign j= 0 %}
-                {% for block in section.blocks %}
-                  {% assign j=j | plus: 1 %}
-                    <div class="main-flex">
-                        <div class="multi-column-image open-modal-{{ j }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap_hidden | img_url:'400x' }})">
-                        {{- block.settings.mul_cap_heading_hidden -}}
-                        </div>
-                        <div class="popover-content-block">
-                            <div class="modal-mc modal-{{ j }}" id="open-model-{{ j }}">
-                                <div class="modal-mc-content">
-                                    <span class="close close-{{ j }}">&times;</span>
-                                    {{ block.settings.ingredient_html_hidden }}
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-              <script>
-                  $(document).ready(function(){
-                    $('.open-modal-{{ j }}').on("click",function(){
-                      $('.modal-{{ j }}').addClass('show');
-                      $('body').css("overflow","hidden");
-                    });
-                    $('.close-{{ j }}').on("click",function(){
-                      $('.modal-{{ j }}').removeClass('show');
-                      $('body').css("overflow","visible");
-                    });
-                  });
-              </script>
-                    {% endfor %}
-          
+          {% for block in section.blocks %}
+            {% assign j=j | plus: 1 %}
+            <div class="main-flex">
+              <div class="multi-column-image open-modal-{{ j }}" id="{{ block.id }}" style="background-image:url({{ block.settings.mul_cap_hidden | img_url:'400x' }})">
+            {{- block.settings.mul_cap_heading_hidden -}}
             </div>
+              <div class="popover-content-block">
+                <div class="modal-mc modal-{{ j }}" id="open-model-{{ j }}">
+                  <div class="modal-mc-content">
+                    <span class="close close-{{ j }}">&times;</span>
+            {{ block.settings.ingredient_html_hidden }}
+            </div>
+                </div>
+              </div>
+            </div>  
+          <script>
+            $(document).ready(function(){
+              $('.open-modal-{{ j }}').on("click",function(){
+                $('.modal-{{ j }}').addClass('show');
+                $('body').css("overflow","hidden");
+              });
+              $('.close-{{ j }}').on("click",function(){
+                $('.modal-{{ j }}').removeClass('show');
+                $('body').css("overflow","visible");
+              });
+            });
+              </script>
+            {% endfor %}
+          </div>
         </div>
-       
-        {% endif %}
-</div>
+          {% endif %}
+          </div>
+  </div>
   <script>
     $(document).ready(function(){
       $(".vieew").click(function(){
@@ -172,7 +169,7 @@
       });
     })
   </script>
-</div>
+
 {% schema %}
     {
         "name": "PR Mutlicolumn",
