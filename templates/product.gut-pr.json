@@ -153,14 +153,6 @@
         "time": 3
       }
     },
-    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e": {
-      "type": "hero-images",
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/Gut_powder_67541908-8908-4271-893d-70ab67154f8d.png",
-        "mobile_image": "shopify:\/\/shop_images\/Mobile_Gut_Health_1_101e8b57-ccef-4d6b-94c0-78d557f136f0.png",
-        "linking_image": ""
-      }
-    },
     "e6258889-9000-4ef9-a32a-158ebaec207a": {
       "type": "pr-video",
       "settings": {
@@ -216,13 +208,90 @@
         "timeline-heading": "How it Works?"
       }
     },
-    "225604cf-5cd0-4216-8f90-d0ca4a5f82e5": {
-      "type": "schema-test",
+    "a6dc855c-ed92-4eca-99ad-409d4e117f6a": {
+      "type": "pr-multicolumn",
+      "blocks": {
+        "18f5c203-6adc-4594-acb9-3a2e65d7029b": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Cumin_Capsule_fbc0956d-6b42-45cf-b9ff-e29820f6a158_2.png",
+            "mul_cap_heading": "CUMIN",
+            "ingrediant_content": "",
+            "ingredient_html": "<p class=\"pop-subhead\">A HERB WHICH DESERVES ALL THE LOVE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Cuminum cyminum<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Never knew a tiny seed could carry such a power. A powerful antioxidant, cumin also promotes digestion, boost your body and your mind.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nDo you ever wonder if cumin could be used to pay taxes? Well it could have been possible if you were still living in the Middle Age. Cumin was also believed to help chickens and lovers from running away. It was even carried during weddings with a belief that it could bring happiness\n<\/p>"
+          }
+        },
+        "09e79c7e-5cfe-4924-86eb-492aeb0e8b71": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Triphala_Capsule_1.png",
+            "mul_cap_heading": "TRIPHALA",
+            "ingrediant_content": "",
+            "ingredient_html": "<p class=\"pop-subhead\">The Great Panacea<\/p>\n<p class=\"pop-subhead1\">Botanical Names - \nEmblica officinalis (Amla) +\nTerminalia chebula (Haritaka) +\nTerminalia bellirica (Bibitaki)<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Meet Triphala, a well known herbal remedy made by using three powerful plants namely Amla, Haritaka and Bibhitaki. All these ingredients are combined in equal proportions to form what is called Triphala.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nTriphala is a polyherb medicine which is made by joining two words, \"tri\" which means three and \"phala\" meaning fruits. It is a comibination of three dried fruits namely Amalaki, Bibhitaki, Haritaki\n<\/p>"
+          }
+        },
+        "5984d163-dc6c-4d35-8171-8c11b4430e53": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_1.png",
+            "mul_cap_heading": "PSYLLIUM HUSK",
+            "ingrediant_content": "",
+            "ingredient_html": "<p class=\"pop-subhead\">A HUSK WITH A LOT OF HUSTLE<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Plantago scabra<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">Derived from the seed of Plantago ovata, psyllium husk is a powerful laxative. It is also helpful in managing body weight and inflammation due to IBS.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nIndia is the world’s largest producer and exporter of Psyllium Husk.\n<\/p>"
+          }
+        },
+        "94e31317-705e-48a6-8d7b-2023319acdbd": {
+          "type": "image",
+          "settings": {
+            "mul_cap": "shopify:\/\/shop_images\/Ajwain_Capsule_1.png",
+            "mul_cap_heading": "AJWAIN",
+            "ingrediant_content": "",
+            "ingredient_html": "<p class=\"pop-subhead\">A WIN OVER ACIDITY &amp; INDIGESTION<\/p>\n<p class=\"pop-subhead1\">Botanical Name:Trachyspermum ammi<\/p>\n<div class=\"pop-div\">|<\/div>\n<p class=\"pop-subhead\">INTRODUCING THE SOURCE<\/p>\n<p class=\"pop-content\">This sharp and pungent seeds is your go-to for acidity and indigestion. The flavour compound of ajwain is thymol, a compound found in thyme, yet it taste a bit different.<\/p>\n<p class=\"pop-subhead\">DID YOU KNOW?<\/p>\n<p class=\"pop-content\">\nAttention to all the dog lovers. Ajwain was traditionally used to treat indigestion and flatulence in dogs. A sprinkle of ajwain in their food and can do many good\n<\/p>"
+          }
+        },
+        "b620da15-7eac-4aa1-8a05-8fbf34a9cd7f": {
+          "type": "product",
+          "settings": {
+            "mul_cap_heading_hidden": "CUMIN",
+            "ingredient_html_hidden": ""
+          }
+        },
+        "51892bcb-fe2b-4ea3-a48e-d7855abf485b": {
+          "type": "product",
+          "settings": {
+            "mul_cap_heading_hidden": "CUMIN",
+            "ingredient_html_hidden": ""
+          }
+        },
+        "cba82b65-ded0-491c-bde5-98de6dfa5579": {
+          "type": "product",
+          "settings": {
+            "mul_cap_heading_hidden": "CUMIN",
+            "ingredient_html_hidden": ""
+          }
+        }
+      },
+      "block_order": [
+        "18f5c203-6adc-4594-acb9-3a2e65d7029b",
+        "09e79c7e-5cfe-4924-86eb-492aeb0e8b71",
+        "5984d163-dc6c-4d35-8171-8c11b4430e53",
+        "94e31317-705e-48a6-8d7b-2023319acdbd",
+        "b620da15-7eac-4aa1-8a05-8fbf34a9cd7f",
+        "51892bcb-fe2b-4ea3-a48e-d7855abf485b",
+        "cba82b65-ded0-491c-bde5-98de6dfa5579"
+      ],
       "settings": {
         "mc_heading": "See Through Us!",
+        "mc_text": "We uphold transparency right from selecting our ingredients to the point they reach you. Rest assured, you will know as much as we do. Not any less.",
         "view_more_checkbox": true,
         "btt_text": "",
         "Btt_link": ""
+      }
+    },
+    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e": {
+      "type": "hero-images",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Gut_powder_67541908-8908-4271-893d-70ab67154f8d.png",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile_Gut_Health_1_101e8b57-ccef-4d6b-94c0-78d557f136f0.png",
+        "linking_image": ""
       }
     },
     "1696769764e355cd70": {
@@ -441,11 +510,11 @@
   "order": [
     "breadcrumb",
     "main",
-    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e",
     "e6258889-9000-4ef9-a32a-158ebaec207a",
     "3bdcda21-cb61-4c6a-ae2c-41800ad3f5d6",
     "572982eb-3b36-4dba-8853-7d41f4e8b147",
-    "225604cf-5cd0-4216-8f90-d0ca4a5f82e5",
+    "a6dc855c-ed92-4eca-99ad-409d4e117f6a",
+    "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e",
     "1696769764e355cd70",
     "sidebar",
     "product-recommendations",
