@@ -286,6 +286,73 @@
         "Btt_link": ""
       }
     },
+    "2a93c764-6f42-4b0e-9857-4ad82905dbf2": {
+      "type": "pr_mutlicolumn_old",
+      "blocks": {
+        "0151f483-b73f-4306-b6e9-b96af3cdec9f": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "e9a79370-b066-48bc-9c67-2a46627c5a55": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "11f98177-7e16-4edc-9c87-0d8c20fb540c": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "49e2c460-6e48-4943-b1dd-5d08b3ebd95f": {
+          "type": "box",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "09c556c1-2531-4a2d-847c-35caa5c79ca5": {
+          "type": "other",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        },
+        "79ee7b6a-6e15-4c9f-a38b-25cc2c3de811": {
+          "type": "other",
+          "settings": {
+            "ingrediant_title": "Vitamin",
+            "ingrediant_content": "",
+            "ingrediant_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "0151f483-b73f-4306-b6e9-b96af3cdec9f",
+        "e9a79370-b066-48bc-9c67-2a46627c5a55",
+        "11f98177-7e16-4edc-9c87-0d8c20fb540c",
+        "49e2c460-6e48-4943-b1dd-5d08b3ebd95f",
+        "09c556c1-2531-4a2d-847c-35caa5c79ca5",
+        "79ee7b6a-6e15-4c9f-a38b-25cc2c3de811"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "section_id": "multicolumnid",
+        "viewmore": true,
+        "viewmoretext": ""
+      }
+    },
     "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e": {
       "type": "hero-images",
       "settings": {
@@ -514,6 +581,7 @@
     "3bdcda21-cb61-4c6a-ae2c-41800ad3f5d6",
     "572982eb-3b36-4dba-8853-7d41f4e8b147",
     "a6dc855c-ed92-4eca-99ad-409d4e117f6a",
+    "2a93c764-6f42-4b0e-9857-4ad82905dbf2",
     "65a7dfe6-823e-4c47-9e95-e2bd3ccedd2e",
     "1696769764e355cd70",
     "sidebar",
