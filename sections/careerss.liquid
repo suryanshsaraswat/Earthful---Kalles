@@ -1,0 +1,85 @@
+
+<div id="careerdiv" class="___secPadding" style="background-color: {{ section.settings.bgcolor }};">
+  <div class="page-width ">
+    <div class="___title ___heading">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  </div>
+  <div class="page-width">
+   <div class="___row careerdiv"> 
+  {% for block in section.blocks %}
+    <div class="___col2 ___textCenter ___padding">
+      <div class="___number">
+        <h3>{{ block.settings.number }}</h3>
+      </div>
+      <div class="___description">
+        <p>{{ block.settings.numbertext }}</p>
+      </div>
+    </div>
+   {% endfor %}
+   </div>
+  </div>
+</div>
+{% include 'slick-js-cdn' %}
+<script type="text/javascript">
+	
+   
+    $(document).ready(function(){
+	 if (screen.width <= 767) {
+	$('.careerdiv').slick({
+	  dots: false,
+	  infinite: false,
+	  autoplay: false,
+	  arrows: true,
+	  autoplaySpeed: 2000,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	});
+	}
+    });
+	
+	
+  </script>
+
+{% schema %}
+{
+"name": "Careers Mob Slider",
+"max_blocks": 15,
+ "settings": [
+      {
+        "id": "bgcolor",
+        "type": "color",
+        "label": "Section Bg Color"
+      },
+      {
+        "id": "title",
+        "type": "text",
+        "label": "Heading"
+      }
+    ], 
+  "blocks" : [
+    {
+    "type": "text",
+    "name": "Add Text",
+      "settings": [
+        {
+        "type": "text",
+        "id": "number",
+        "label": "Number"
+        },
+        {
+        "type": "text",
+        "id": "numbertext",
+        "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+    "name": "Careers Mob Slider",
+    "category": "Text"
+    }
+  ]
+}
+{% endschema %}
