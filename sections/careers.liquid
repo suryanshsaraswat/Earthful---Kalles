@@ -1,0 +1,112 @@
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/> -->
+  <style>
+    *{
+      font-family: Literata !important;
+    }
+	.slick-prev, .slick-next {
+	left:10px;
+	}
+	.slick-prev:before, .slick-next:before {
+	color:#000000;
+	}
+    </style>
+
+ 
+<div class="___sectionPadding">
+<div class="page-width">
+   <div class="careerprofile"> 
+   {% for block in section.blocks %}
+    <div>
+      <div class="___row">
+        <div class="___col4">
+          <img class="___imgMargin" src="{{ block.settings.image | img_url: 'master'}}">
+        </div>
+        <div class="___col8">
+          <div class="___textLeft ___profileDetails">
+            <h2>{{ block.settings.name }}</h2>
+            <h3>{{ block.settings.profile }}</h3>
+            <p>{{ block.settings.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+   </div>
+</div>
+</div>
+{% include 'slick-js-cdn' %}
+
+  <script type="text/javascript">
+	
+   
+    $(document).ready(function(){
+
+	$('.careerprofile').slick({
+	  dots: false,
+	  infinite: false,
+	  autoplay: false,
+	  arrows: true,
+	  autoplaySpeed: 2000,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	});
+	
+    });
+	
+	
+  </script>
+
+{% schema %}
+{
+"name": "Career Profile",
+"max_blocks": 15,
+ "settings": [
+      {
+        "id": "bgcolor",
+        "type": "color",
+        "label": "Section Bg Color"
+      },
+      {
+        "id": "title",
+        "type": "text",
+        "label": "Heading"
+      }
+    ], 
+  "blocks" : [
+    {
+    "type": "text",
+    "name": "Add Text",
+      "settings": [
+        {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Employee Image"
+        },
+        {
+        "type": "text",
+        "id": "name",
+        "label": "Employee Name"
+        },
+        {
+        "type": "text",
+        "id": "profile",
+        "label": "Employee Profile"
+        },
+        {
+        "type": "text",
+        "id": "description",
+        "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+    "name": "Career Profile",
+    "category": "Text"
+    }
+  ]
+}
+{% endschema %}
