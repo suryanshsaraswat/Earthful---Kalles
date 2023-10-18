@@ -1,1 +1,229 @@
-{"sections":{"heading":{"type":"heading-template","blocks":{"18952756-58af-4afa-a0cc-b1b54300fb8b":{"type":"1","settings":{"heading":"","fontf":"inherit","text_cl":"#ffffff","text_fs":20,"text_lh":20,"text_fw":500,"text_ls":0,"font_italic":false,"font_uppercase":false,"text_shadow":false,"text_mgb":15,"hidden_mobile":false,"text_fs_mb":20,"text_lh_mb":20,"text_ls_mb":0,"text_mgb_mobile":10}},"cc993342-0dd0-41d6-a6c4-a5f3c87e6f96":{"type":"3","settings":{"breadcrumb_color":"#f2f2f2","brc_mgb":5}}},"block_order":["18952756-58af-4afa-a0cc-b1b54300fb8b","cc993342-0dd0-41d6-a6c4-a5f3c87e6f96"],"settings":{"image":"shopify:\/\/shop_images\/bg-heading.jpg","parallax":false,"color":"#000000","overlay":54,"padding":50,"paddingmb":50,"mg_b":50,"mg_bmb":50,"content_align":"t4s-text-center","bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"main":{"type":"main-page","settings":{"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"60px,,60px,","pd":"","mg_mb":",,30px,","pd_mb":""}},"sidebar-page":{"type":"sidebar-page","disabled":true,"settings":{"enable_drawer":true,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":5,"sidebar_pd":10}}},"order":["heading","main","sidebar-page"]}
+{
+  "sections": {
+    "1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1": {
+      "type": "hero_image",
+      "blocks": {
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_text-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "How can we help?",
+            "remove_br_tag": true,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#222222",
+            "text_fs": 40,
+            "text_lh": 0,
+            "text_fw": 700,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        },
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_text-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "OUR FREQUENTLY ASKED QUESTIONS ARE THE QUICKEST WAY TO GET HELP",
+            "remove_br_tag": false,
+            "tag": "h3",
+            "fontf": "2",
+            "text_cl": "#222222",
+            "text_fs": 24,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_button-1": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_text-1",
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_text-2",
+        "template--16015805907128__1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1-custom_button-1"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 400,
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_35_a72f6b62-9863-4dcf-a119-882c1d38f5e4.png",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "bg_content_cl": "#fff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222",
+        "br_bg": "#fff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "18952756-58af-4afa-a0cc-b1b54300fb8b": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "cc993342-0dd0-41d6-a6c4-a5f3c87e6f96": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "18952756-58af-4afa-a0cc-b1b54300fb8b",
+        "cc993342-0dd0-41d6-a6c4-a5f3c87e6f96"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "settings": {
+        "enable_drawer": true,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    }
+  },
+  "order": [
+    "1e4bf37d-5bc9-4c50-b21f-39cc2c0cf0a1",
+    "heading",
+    "main",
+    "sidebar-page"
+  ]
+}
