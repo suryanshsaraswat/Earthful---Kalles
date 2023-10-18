@@ -3,6 +3,8 @@
     "heading": {
       "type": "heading-template",
       "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
         "overlay": 54,
@@ -26,6 +28,8 @@
         "cl_bg_gradient": "",
         "mg": "60px,,60px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
@@ -55,11 +59,54 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "3c474685-af57-45ee-880a-31cdace393bd": {
+      "type": "ingredient-text-heading",
+      "blocks": {
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "VITAL",
+            "text": "Contains MCT which reduce body weight"
+          }
+        },
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "IMROVES",
+            "text": "High in Antioxidants"
+          }
+        },
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "ENSURES",
+            "text": "Contains Lauric Acid that fights Bacteria"
+          }
+        },
+        "d15de515-9aa9-4a30-99fe-2395548ee25b": {
+          "type": "column",
+          "settings": {
+            "title": "REGULATES",
+            "text": "MCT Improves Muscle Health"
+          }
+        }
+      },
+      "block_order": [
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-1",
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-2",
+        "template--16098271756472__3c474685-af57-45ee-880a-31cdace393bd-column-3",
+        "d15de515-9aa9-4a30-99fe-2395548ee25b"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "3c474685-af57-45ee-880a-31cdace393bd"
   ]
 }
