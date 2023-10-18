@@ -21,6 +21,7 @@
     justify-content: center;
     flex-direction: row;
 }
+  
   .image-with-text .grid__item.img-box {background-color: #909383;padding: 35px;margin-right: 40px;}
   .grid--2-col-tablet .grid__item {width: calc(45% - 1rem / 2);}
   .image-with-text h2.image-with-text__heading {margin-bottom: 0; width: 100%;text-align: center;}
@@ -30,6 +31,7 @@
     .image-with-text .grid__item.img-box {padding: 25px;margin-right: 30px;}}
     @media(max-width:540px){.grid__item.img-box {width: 100%;margin-bottom: 20px;}
     .grid__item.text-box {width: 100%;}
+    .image-with-text__grid {flex-direction: column;}
     .image-with-text__grid{display: block;margin: 0;}}
 </style>
 {% schema %}
