@@ -544,8 +544,8 @@
         "db52a15f-a3ba-40a3-a5cc-2d445fa142c0"
       ],
       "settings": {
-        "custom_text_title": "Title",
-        "custom_text_body": "<p>Add your text here<\/p>"
+        "custom_text_title": "",
+        "custom_text_body": ""
       }
     }
   },
