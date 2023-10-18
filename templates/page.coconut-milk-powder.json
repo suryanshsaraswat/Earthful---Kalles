@@ -101,12 +101,41 @@
       "settings": {
         "heading": ""
       }
+    },
+    "5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a": {
+      "type": "ingredient-content",
+      "blocks": {
+        "template--16098271756472__5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a-column-1": {
+          "type": "column",
+          "settings": {
+            "background": "",
+            "title": "Introducing The Source",
+            "text": "Coconut Milk Powder is made by drying raw coconut cream. Rich in Lauric Acid, this powder helps the body fight Bacteria &amp; Supports Immunity."
+          }
+        },
+        "template--16098271756472__5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a-column-2": {
+          "type": "column",
+          "settings": {
+            "background": "#b7cbc9",
+            "title": "Did You Know?",
+            "text": "In its dried form, Coconut Milk can be added to your favourite recipes, from smoothies to soups!"
+          }
+        }
+      },
+      "block_order": [
+        "template--16098271756472__5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a-column-1",
+        "template--16098271756472__5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a-column-2"
+      ],
+      "settings": {
+        "height": "adapt"
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "3c474685-af57-45ee-880a-31cdace393bd"
+    "3c474685-af57-45ee-880a-31cdace393bd",
+    "5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a"
   ]
 }
