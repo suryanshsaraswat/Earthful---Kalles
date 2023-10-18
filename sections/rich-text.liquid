@@ -1,12 +1,28 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Rich Text",
+    "settings": [
+      {
+        "type":"text",
+        "id":"rt_heading",
+        "label":"Enter Section Heading"
+      },
+      {
+        "type":"html",
+        "id":"rc_body",
+        "label":"Enter Section Body text"
+      },
+      {
+        "type":"color",
+        "id":"rc_heading_color",
+        "label":"Select Heading Color"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Rich Text",
+        "category":"Testimonials"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
