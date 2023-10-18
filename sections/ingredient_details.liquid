@@ -1,0 +1,101 @@
+<div class="rich-text__text rte" {{ block.shopify_attributes }}>
+  <div class="rich_title">{{ section.settings.heading }}</div>
+  <div class="vdivi3">|</div>
+  <p class="pcurious-text">{{ section.settings.subheading }}</p>
+  <div class="vdivi3">|</div>
+  <table>
+    <tbody>
+      {% for block in section.blocks %}
+ <tr>
+        <td>{{ block.settings.title }}</td>
+        <td><a class="res-table" href="{{ block.settings.url }}" target="_blank">{{ block.settings.text }}-</a></td>
+      </tr>
+      {% endfor %}
+     
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .rich-text__text .rich_title {
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .rich-text__text .pcurious-text {
+    font-family: Literata;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .rich-text__text table {
+    margin-bottom: 40px;
+  }
+  
+  @media(max-width:540px){
+    .rich-text__text .pcurious-text {
+      max-width: 75%;
+    }
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Ingrediant Details",
+    "class": "product-section",
+    "settings": [
+       {
+      "type": "text",
+      "id" : "heading",
+      "label" : "Heading"
+    },
+       {
+      "type": "text",
+      "id" : "subheading",
+      "label" : "Sub Heading"
+    }
+	
+  ],
+     "blocks": [
+    {
+      "type": "column",
+      "name": "column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Column",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        },
+         {
+          "type": "text",
+          "id": "text",
+          "label": "Link Text",
+           "default": "Reserach"
+        }
+      ]
+    }
+  ],
+    "presets": [
+    {
+      "name": "Indrediant Details"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
