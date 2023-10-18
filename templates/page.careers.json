@@ -143,82 +143,12 @@
         "rc_heading_color": "#8e937f"
       }
     },
-    "e104585c-a2ea-43dc-a088-fae389906561": {
-      "type": "feature_columns",
-      "blocks": {
-        "template--16098084683960__e104585c-a2ea-43dc-a088-fae389906561-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "title": "Why join Earthful ?",
-            "text": "<p>We are on a mission to improve nutrition in India, <br\/>so that everyone can live life to the fullest!<br\/>If you are a curious person who enjoys learning new things, <br\/>pushing your intellectual limits, and working on projects that have<br\/> never been done before, then Earthful is the right place for you.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "open_link": "_self",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "fade"
-          }
-        }
-      },
-      "block_order": [
-        "template--16098084683960__e104585c-a2ea-43dc-a088-fae389906561-text_block-3"
-      ],
+    "fe5575cc-a933-401b-8a6e-8bc18a1b5949": {
+      "type": "rich-text",
       "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "text_align": "start",
-        "pos_text": "default",
-        "fs_title": 27,
-        "fs_text": 20.5,
-        "fs_title_mb": 22,
-        "fs_text_mb": 12,
-        "image_ratio": "ratio16_9",
-        "image_size": "cover",
-        "image_position": "8",
-        "img_effect": "none",
-        "b_effect": "none",
-        "layout_des": "1",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "col_dk": "1",
-        "col_tb": "1",
-        "col_mb": "1",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
+        "rt_heading": "Who We Are ?",
+        "rc_body": "We are a passionate team who is super driven to make Earthful a trusted brand in the health &amp; wellness space. Our founders are alumni of esteemed colleges such as IIT Kharagpur &amp; ISB. They have a multitude of experience in corporations such as Uber, Deutsche Bank, ITC &amp; Meesho. You will get a chance to work directly with them in building Earthful.",
+        "rc_heading_color": "#8e937f"
       }
     },
     "c1bfda62-4d05-4c6d-a5f6-f523c2ff7dd7": {
@@ -275,7 +205,7 @@
     "sidebar-page",
     "c953cb30-db69-4920-a89e-c12ae5748d87",
     "571bfc97-d8bc-4cbd-9c74-6d93656e02e6",
-    "e104585c-a2ea-43dc-a088-fae389906561",
+    "fe5575cc-a933-401b-8a6e-8bc18a1b5949",
     "c1bfda62-4d05-4c6d-a5f6-f523c2ff7dd7"
   ]
 }
