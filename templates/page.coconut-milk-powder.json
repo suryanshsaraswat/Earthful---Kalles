@@ -69,7 +69,7 @@
             "remove_br_tag": false,
             "tag": "p",
             "fontf": "inherit",
-            "text_cl": "#fff",
+            "text_cl": "#ffffff",
             "text_fs": 70,
             "text_lh": 70,
             "text_fw": 300,
@@ -110,17 +110,17 @@
         "ch_pos": 11,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 0,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 0,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -235,6 +235,53 @@
       "settings": {
         "height": "adapt"
       }
+    },
+    "18f335d0-e726-4272-80e8-130b2def578f": {
+      "type": "ingredient_details",
+      "blocks": {
+        "4c5decb2-303b-4c07-8f42-ec3670c30fe7": {
+          "type": "column",
+          "settings": {
+            "title": "Contains MCT which reduce body weight",
+            "url": "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5805166\/",
+            "text": "Reserach"
+          }
+        },
+        "4b8aad3c-b284-41f7-89f6-e36e1fafaaf5": {
+          "type": "column",
+          "settings": {
+            "title": "High in Antioxidants",
+            "url": "https:\/\/www.jocpr.com\/articles\/study-of-antioxidant-activity-and-physicochemical-properties-of-coconut-milk-pati-santan-in-malaysia.pdf",
+            "text": "Reserach"
+          }
+        },
+        "cb9f9535-643b-49b2-a31a-1f68f263bde6": {
+          "type": "column",
+          "settings": {
+            "title": "Contains Lauric Acid that fights Bacteria",
+            "url": "https:\/\/www.researchgate.net\/publication\/318426682_Antibacterial_Activity_of_Lauric_Acid_on_Some_Selected_Clinical_Isolates",
+            "text": "Reserach"
+          }
+        },
+        "fdb5770a-05e2-4293-94b2-130575d76bf6": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "url": "",
+            "text": "Reserach"
+          }
+        }
+      },
+      "block_order": [
+        "4c5decb2-303b-4c07-8f42-ec3670c30fe7",
+        "4b8aad3c-b284-41f7-89f6-e36e1fafaaf5",
+        "cb9f9535-643b-49b2-a31a-1f68f263bde6",
+        "fdb5770a-05e2-4293-94b2-130575d76bf6"
+      ],
+      "settings": {
+        "heading": "FOR THE CURIOUS",
+        "subheading": "With the dynamic nature of science and nutrition, we keep ourselves up-to-date with research. You can read more about the specific vitamin and it's evidence-based roles in the body through the links below. Enjoy soaking up all the learning!"
+      }
     }
   },
   "order": [
@@ -243,6 +290,7 @@
     "d6f56347-0211-4341-a66a-53090bdb4b14",
     "sidebar-page",
     "3c474685-af57-45ee-880a-31cdace393bd",
-    "5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a"
+    "5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a",
+    "18f335d0-e726-4272-80e8-130b2def578f"
   ]
 }
