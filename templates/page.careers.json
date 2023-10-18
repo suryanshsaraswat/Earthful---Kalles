@@ -135,6 +135,14 @@
         "code_cus_css": ""
       }
     },
+    "571bfc97-d8bc-4cbd-9c74-6d93656e02e6": {
+      "type": "rich-text",
+      "settings": {
+        "rt_heading": "Why join Earthful ?",
+        "rc_body": "We are on a mission to improve nutrition in India,\nso that everyone can live life to the fullest!\nIf you are a curious person who enjoys learning new things,\npushing your intellectual limits, and working on projects that have\nnever been done before, then Earthful is the right place for you.",
+        "rc_heading_color": "#222222"
+      }
+    },
     "e104585c-a2ea-43dc-a088-fae389906561": {
       "type": "feature_columns",
       "blocks": {
@@ -212,6 +220,53 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "c1bfda62-4d05-4c6d-a5f6-f523c2ff7dd7": {
+      "type": "career-openings",
+      "blocks": {
+        "e715c653-856a-4895-b2fd-b8581e3e6d85": {
+          "type": "text_block",
+          "settings": {
+            "faq_title": "Content Writer",
+            "content_text": "<p><strong>Responsibilities<\/strong><\/p><ul><li>Create & execute Content for all marketing & branding initiatives of Earthful.<br\/><\/li><li>Write advertisement content for social media platform.<br\/><\/li><li>Regularly produce various content types, including social media posts, blogs, ad copies, emailers, press releases, whatsapp marketing copies, website content, etc<\/li><li>Analyse content marketing metrics and make changes as needed<br\/><\/li><li>Collaborate with other departments like marketing, design, sales and customer service to ensure brand consistency & create innovative content ideas.<br\/><br\/><\/li><\/ul><p><strong>Skill Sets<br\/><\/strong><\/p><ul><li>Highly creative in Copywriting<br\/><\/li><li>Passionate about thinking out of the box content Ideas<br\/><\/li><li>Good Communication skills - written and verbal.<br\/><\/li><li>Strong MS office knowledge<br\/><\/li><li>Prior experience in a similar role is a plus<br\/><br\/>Your talents can change the world! Connect with us at <strong>careers@earthful.me<\/strong>.<br\/>Join the Earthful revolution!<\/li><\/ul>",
+            "apply_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfQZKKk_OzdgfANaqQWnEiS9y6OTkcqbDV70QLe3z0m_t8iQQ\/viewform?vc=0&c=0&w=1&flr=0"
+          }
+        },
+        "fc7a80b7-4be3-441d-8b25-9b824a0d1e9a": {
+          "type": "text_block",
+          "settings": {
+            "faq_title": "Business Analyst",
+            "content_text": "<p><strong>Responsibilities<\/strong><\/p><ul><li>Responsible for defining, analyzing and communicating key business metrics and business trends to the management teams.<br\/><\/li><li>Build data models in order to create dashboards for business process management<br\/><\/li><li>Execute quantitative analysis that translates data into actionable insights<br\/><\/li><li>Analyse business metrics across all functions- Marketing, Customer Acquisition, Retention, Supply Chain, Logistics, etc.<br\/><\/li><li>Collaborating with cross-functional teams to ensure solutions are implemented effectively<\/li><\/ul><p><strong><br\/>Skill Sets<br\/><\/strong><\/p><ul><li>Advance Excel proficiency.<br\/><\/li><li>High expertise in Data Analytics, Data Mining and Data Management.<br\/><\/li><li>Good Communication Skills - Verbal and Written.<br\/><\/li><li>High ownership.<br\/><br\/>Your talents can change the world! Connect with us at <strong>careers@earthful.me<\/strong>.<br\/>Join the Earthful revolution!<\/li><\/ul>",
+            "apply_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScDoNbmaXikGn1RBOIX_3Z5ZyCn3QZeRR5YBz8n-2zf9jNqNg\/viewform?vc=0&c=0&w=1&flr=0"
+          }
+        },
+        "49c444a8-f5b2-4e78-bab5-fb68840ac674": {
+          "type": "text_block",
+          "settings": {
+            "faq_title": "Social Media Manager",
+            "content_text": "<p><strong>Responsibilities<\/strong><\/p><ul><li>Ability to generate & analyze Consumer insights to improve Brand positioning<br\/><\/li><li>Ability to run Branding campaigns end to end, including developing a value proposition, creative communication, media distribution, and tracking campaign ROI<br\/><\/li><li>Having a creative eye for unique marketing & branding concepts & passionate enough to take it to fruition, in the most cost-effective way<br\/><\/li><li>Coordinating with external agencies & internal teams to prepare creative briefs and media plans for campaigns while ensuring that brand guidelines are effectively followed<br\/><\/li><li>Leading a team, setting goals and tuning them to give their best performance<br\/><\/li><li>Work with the design team, videographers, content writers, and freelancers to create visually appealing assets for social engagement.<br\/><\/li><li>Identify and work with relevant Influencers and PR agencies<br\/><\/li><li>360-degree ownership of content calendars across multiple channels- Social media (Paid, Organic), Email, Whatsapp, etc<br\/><\/li><li>Monitoring key metrics across campaigns to ensure effectiveness<br\/><\/li><li>Evaluating the competitive landscape to identify opportunities and threats to the brand.<br\/><\/li><li>Staying up-to-date with industry trends and best practices in branding and marketing<br\/><br\/><\/li><\/ul><p><strong>Skill Sets<br\/><\/strong><\/p><ul><li>Passionate about any creative skill eg: Graphic designing\/Video editing\/Videography\/Photography,etc.<br\/><\/li><li>Creative aptitude in Visual design<br\/><\/li><li>Good Communication skills - written and verbal. Strong MS office knowledge<br\/><\/li><li>2+ years of experience in Brand Management, Acquisition & Growth<br\/><\/li><li>Content Writing and Proofreading<br\/><\/li><li>Exceptional persuasive written, verbal, and presentation communication skills.<br\/><br\/>Your talents can change the world! Connect with us at <strong>careers@earthful.me<\/strong>.<br\/>Join the Earthful revolution!<\/li><\/ul>",
+            "apply_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfK7yFbVCj1r_5Uakr5q7ErAVhaJXzZ8SaZhgzyUvMAj5v38Q\/viewform?vc=0&c=0&w=1&flr=0"
+          }
+        },
+        "77923e9a-764d-44b9-92b7-97c3c5e9a67c": {
+          "type": "text_block",
+          "settings": {
+            "faq_title": "Hyderabad Area Sales Officer",
+            "content_text": "<p><strong>Responsibilities<\/strong><\/p><ul><li>Exploring right channels for distribution of our products such as specialty stores, nutritionists, modern trade channels, etc.<br\/><\/li><li>Creating a database of potential partners & identifying contacts<br\/><\/li><li>Pitching to the partners regarding our products, Negotiate contract terms with partners and communicate terms to stakeholders<br\/><\/li><li>Collaborate with the operation team to establish smooth supply of products & also ensure payments are made on time. Plans the revenue targets for the company<br\/> from the partners\/ channels & develops action plans to execute them.<br\/><\/li><li>Minimum 1-2 Years in the Retail Sales & General Trade<br\/><\/li><li>Delivering Sales Volume Primary and Secondary target assigned to the Area<br\/><\/li><\/ul><p><strong>Skill Sets<br\/><\/strong><\/p><ul><li>Good Communication skills - written and verbal.<br\/><\/li><li>Willingness to commute and meet channel partners within the city. (Having their own vehicle is necessary)<br\/><br\/>Your talents can change the world! Connect with us at <strong>careers@earthful.me<\/strong>.<br\/>Join the Earthful revolution!<\/li><\/ul>",
+            "apply_url": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeYXEEHTgCFr5sg7ZI29vhstPKM O2f-rrd91u7iECN_rc7yIw\/viewform?vc=0&c=0&w=1&flr=0"
+          }
+        }
+      },
+      "block_order": [
+        "e715c653-856a-4895-b2fd-b8581e3e6d85",
+        "fc7a80b7-4be3-441d-8b25-9b824a0d1e9a",
+        "49c444a8-f5b2-4e78-bab5-fb68840ac674",
+        "77923e9a-764d-44b9-92b7-97c3c5e9a67c"
+      ],
+      "settings": {
+        "custom_text_title": "Current Openings",
+        "custom_text_body": ""
+      }
     }
   },
   "order": [
@@ -219,6 +274,8 @@
     "main",
     "sidebar-page",
     "c953cb30-db69-4920-a89e-c12ae5748d87",
-    "e104585c-a2ea-43dc-a088-fae389906561"
+    "571bfc97-d8bc-4cbd-9c74-6d93656e02e6",
+    "e104585c-a2ea-43dc-a088-fae389906561",
+    "c1bfda62-4d05-4c6d-a5f6-f523c2ff7dd7"
   ]
 }
