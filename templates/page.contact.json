@@ -1,1 +1,182 @@
-{"sections":{"heading":{"type":"heading-template","disabled":true,"settings":{"parallax":false,"color":"#000000","overlay":54,"padding":50,"paddingmb":50,"mg_b":50,"mg_bmb":50,"content_align":"t4s-text-center","bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"main":{"type":"main-page","disabled":true,"settings":{"layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"60px,,60px,","pd":"","mg_mb":",,30px,","pd_mb":""}},"1648884254eae8e0bd":{"type":"contact-form","blocks":{"1648884254cd155bea-0":{"type":"bl_form","settings":{"heading":"DROP US A LINE","enable_phone":true,"enable_full_btn":true,"button_style":"outline","btn_size":"medium","btn_cl":"dark"}},"1648884254cd155bea-1":{"type":"bl_info","settings":{"heading":"CONTACT INFORMATION","text":"<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.<\/p><p><i class=\"las la-home fs__16\"><\/i> 184 Main Rd E, St Albans Victoria 3021, Australia<\/p><p><i class=\"las la-phone fs__16\"><\/i> 1800-123-222 \/ 1900-1570-230<\/p><p><i class=\"las la-envelope fs__16\"><\/i> contact@company.com<\/p><i class=\"las la-clock fs__16\"><\/i> Everyday 9:00-17:00"}}},"block_order":["1648884254cd155bea-0","1648884254cd155bea-1"],"settings":{"enable_map":true,"map":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>","layout":"t4s-container-wrap","cl_bg":"","cl_bg_gradient":"","mg":"50px,,50px,","pd":"","mg_mb":",,30px,","pd_mb":"","use_cus_css":false,"code_cus_css":".SectionID {\nbackground-color:red\n}"}},"sidebar-page":{"type":"sidebar-page","disabled":true,"settings":{"enable_drawer":true,"space":50,"size":"medium","br_style":"none","brcolor":"#222222","sidebar_bdr":5,"sidebar_pd":10}}},"order":["heading","main","1648884254eae8e0bd","sidebar-page"]}
+{
+  "sections": {
+    "85ec52b3-697e-4359-af4a-e5be9a4a2f47": {
+      "type": "hero_image",
+      "blocks": {
+        "template--16015805841592__85ec52b3-697e-4359-af4a-e5be9a4a2f47-custom_text-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Contact Us",
+            "remove_br_tag": false,
+            "tag": "h2",
+            "fontf": "1",
+            "text_cl": "#222222",
+            "text_fs": 48,
+            "text_lh": 0,
+            "text_fw": 600,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 30,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16015805841592__85ec52b3-697e-4359-af4a-e5be9a4a2f47-custom_text-1"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 500,
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_4_6bc665d4-8844-48a0-ab6b-ba59ad67731c.jpg",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 50,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "bg_content_cl": "#fff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 15,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 10,
+        "border_bl": false,
+        "br_color": "#222",
+        "br_bg": "#fff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "heading": {
+      "type": "heading-template",
+      "disabled": true,
+      "settings": {
+        "heading_fullwidth": false,
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 50,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "1648884254eae8e0bd": {
+      "type": "contact-form",
+      "blocks": {
+        "1648884254cd155bea-0": {
+          "type": "bl_form",
+          "settings": {
+            "heading": "DROP US A LINE",
+            "enable_phone": true,
+            "enable_full_btn": true,
+            "button_style": "outline",
+            "btn_size": "medium",
+            "btn_cl": "dark"
+          }
+        },
+        "1648884254cd155bea-1": {
+          "type": "bl_info",
+          "settings": {
+            "heading": "CONTACT INFORMATION",
+            "text": "Contact us 24\/7 at <a href=\"mailto:care@earthful.me\">care@earthful.me <\/a>for any questions. \n<br>\nIf you wish to talk to us urgently, call <a href=\"tel:+91%208121010992\">+91 8121010992\n<\/a>(10.00 am - 6.00 pm;  Monday-Friday; Except Public Holidays) <br>\n10-3-311\/4A, Castle Hills, Venkatadri Colony, Vijaya Nagar Colony, Hyderabad, Telangana 500057"
+          }
+        }
+      },
+      "block_order": [
+        "1648884254cd155bea-0",
+        "1648884254cd155bea-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "settings": {
+        "enable_drawer": true,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    }
+  },
+  "order": [
+    "85ec52b3-697e-4359-af4a-e5be9a4a2f47",
+    "heading",
+    "main",
+    "1648884254eae8e0bd",
+    "sidebar-page"
+  ]
+}
