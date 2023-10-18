@@ -1,12 +1,95 @@
+<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}" id="{{section.id}}">
+  <div class="image-with-text__grid color-{{ section.settings.color_scheme }} grid grid--gapless grid--1-col grid--2-col-tablet gradient{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+{% for block in section.blocks %}
+<div class="grid__item img-box"  style="background:{{ block.settings.background }};">
+      <div class="image-with-text__content image-with-text__content--adapt">
+        <h2 class="image-with-text__heading">
+      {{ block.settings.title }}
+        </h2>
+        <div class="image-with-text__text rte">
+  {{ block.settings.text }}
+        </div>
+      </div>
+    </div>
+{% endfor %}
+  </div>
+</div>
+<style>
+  .image-with-text .grid{margin: 40px 0;}
+  .image-with-text .grid__item.img-box {background-color: #909383;padding: 35px;margin-right: 40px;}
+  .grid--2-col-tablet .grid__item {width: calc(45% - 1rem / 2);}
+  .image-with-text h2.image-with-text__heading {margin-bottom: 0; width: 100%;text-align: center;}
+  .image-with-text .image-with-text__text.rte {text-align: center;color: #000;font-weight: 600;font-size: 16px;font-family: Literata;}
+  .image-with-text .grid__item{background-color: #b7cbc9;padding: 35px;}
+    @media(max-width:768px){.image-with-text__content {padding: 0;}
+    .image-with-text .grid__item.img-box {padding: 25px;margin-right: 30px;}}
+    @media(max-width:540px){.grid__item.img-box {width: 100%;margin-bottom: 20px;}
+    .grid__item.text-box {width: 100%;}
+    .image-with-text__grid{display: block;margin: 0;}}
+</style>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Ingrediant content",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+   {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "small",
+          "label": "small"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "adapt",
+      "label": "Adapt to image"
+    }
+  ],
+   "blocks": [
+    {
+      "type": "column",
+      "name": "text block",
+      "settings": [
+
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background Color"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Column",
+          "label": "Title"
+        },
+        {
+          "type": "html",
+          "id": "text",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingrediance content",
+       "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+}
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
