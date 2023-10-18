@@ -2,6 +2,7 @@
   "sections": {
     "heading": {
       "type": "heading-template",
+      "disabled": true,
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
@@ -22,6 +23,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -32,6 +34,110 @@
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
+      }
+    },
+    "d6f56347-0211-4341-a66a-53090bdb4b14": {
+      "type": "hero_image",
+      "blocks": {
+        "template--16098271756472__d6f56347-0211-4341-a66a-53090bdb4b14-custom_text-1": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Coconut Milk Powder",
+            "remove_br_tag": true,
+            "tag": "h3",
+            "fontf": "3",
+            "text_cl": "#8e937f",
+            "text_fs": 25,
+            "text_lh": 0,
+            "text_fw": 500,
+            "text_ls": 1,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 36,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "fadeIn"
+          }
+        },
+        "template--16098271756472__d6f56347-0211-4341-a66a-53090bdb4b14-custom_text-2": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Cocos nucifera",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 70,
+            "text_lh": 70,
+            "text_fw": 300,
+            "text_ls": 0,
+            "text_mgb": 25,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 24,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16098271756472__d6f56347-0211-4341-a66a-53090bdb4b14-custom_text-1",
+        "template--16098271756472__d6f56347-0211-4341-a66a-53090bdb4b14-custom_text-2"
+      ],
+      "settings": {
+        "se_height": "t4s_ratio_cuspx",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "image": "shopify:\/\/shop_images\/Coconut_9ac4bcef-1919-4f17-8fc2-3f83a1445aab.png",
+        "parallax": false,
+        "image_position": "0",
+        "link_img1": "",
+        "open_link": "_blank",
+        "text_align": "center",
+        "text_align_mb": "center",
+        "content_width": "auto",
+        "cv_pos": 50,
+        "ch_pos": 11,
+        "cv_pos_mb": 50,
+        "ch_pos_mb": 50,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "bg_content_cl": "#fff",
+        "bg_content_op": 0,
+        "content_pd_tb": 15,
+        "content_pd_lr": 0,
+        "content_pd_tb_mb": 10,
+        "content_pd_lr_mb": 0,
+        "border_bl": false,
+        "br_color": "#222",
+        "br_bg": "#fff",
+        "br_opacity": 50,
+        "br_style": "solid",
+        "br_pd": 20,
+        "br_pd_mb": 10,
+        "time_animation": 1,
+        "animation_delay": 40,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "sidebar-page": {
@@ -134,6 +240,7 @@
   "order": [
     "heading",
     "main",
+    "d6f56347-0211-4341-a66a-53090bdb4b14",
     "sidebar-page",
     "3c474685-af57-45ee-880a-31cdace393bd",
     "5b692fbe-1ae7-40fc-b6d0-7bd91e12eb1a"
