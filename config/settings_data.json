@@ -176,7 +176,7 @@
             "type": "bl_col",
             "settings": {
               "col_heading": "",
-              "menu": "",
+              "menu": "kalles-sub-menu-shop-all",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "3",
@@ -186,7 +186,7 @@
               "padding_inner": "",
               "content_align_tb": "t4s-text-md-start",
               "padding_inner_tb": "",
-              "col_heading_mobile": "Get in touch",
+              "col_heading_mobile": "Shop All",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
             }
