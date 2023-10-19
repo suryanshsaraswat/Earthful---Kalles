@@ -18,6 +18,7 @@
     "logo_mb_width": 130,
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
+    "only_icon": true,
     "accent_color": "#b97942",
     "secondary_color": "#dfbb90",
     "link_color_hover": "#b97942",
@@ -1351,82 +1352,82 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-0": {
+          "4c814cad-22ce-444b-a7ff-69e998aab3a3": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
+              "title": "Shop All",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "kalles-sub-menu-shop-all",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
               "icon": ""
             }
           },
-          "mb_nav-1": {
+          "26b3defa-bfc5-45bd-8938-d7254b1d7322": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/women",
+              "title": "Our Story",
+              "url": "shopify:\/\/pages\/about-us",
               "open_link": "_self",
               "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-chair"
             }
           },
-          "mb_nav-2": {
+          "f1a9e509-c4ca-4d07-bc4b-cf28d4a537aa": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
+              "title": "Ingredients",
+              "url": "shopify:\/\/pages\/ingredients-1",
               "open_link": "_self",
               "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-chair"
             }
           },
-          "25fa7ecf-2db0-4747-b093-a1299099917e": {
-            "type": "menu",
-            "settings": {
-              "title": "Portfolio",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
-          "58800ed8-befe-449a-b8f8-ea86620bef6f": {
-            "type": "menu",
-            "settings": {
-              "title": "Lookbook",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
-          "mb_nav-3": {
+          "1fe2d08b-9e5d-4144-88e3-061f510fe75d": {
             "type": "menu",
             "settings": {
               "title": "Blog",
-              "url": "shopify:\/\/blogs\/fashion",
+              "url": "shopify:\/\/blogs\/blog",
               "open_link": "_self",
               "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-chair"
+            }
+          },
+          "a71c2f37-75bc-4053-87fd-4e992aa49347": {
+            "type": "menu",
+            "settings": {
+              "title": "Careers",
+              "url": "shopify:\/\/pages\/careers",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
+            }
+          },
+          "1a4b0d2f-d7a8-4697-ac0b-38838280a1d0": {
+            "type": "menu",
+            "settings": {
+              "title": "FAQs",
+              "url": "shopify:\/\/pages\/faqs",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
             }
           },
           "mb_nav-4": {
@@ -1463,12 +1464,12 @@
           }
         },
         "block_order": [
-          "mb_nav-0",
-          "mb_nav-1",
-          "mb_nav-2",
-          "25fa7ecf-2db0-4747-b093-a1299099917e",
-          "58800ed8-befe-449a-b8f8-ea86620bef6f",
-          "mb_nav-3",
+          "4c814cad-22ce-444b-a7ff-69e998aab3a3",
+          "26b3defa-bfc5-45bd-8938-d7254b1d7322",
+          "f1a9e509-c4ca-4d07-bc4b-cf28d4a537aa",
+          "1fe2d08b-9e5d-4144-88e3-061f510fe75d",
+          "a71c2f37-75bc-4053-87fd-4e992aa49347",
+          "1a4b0d2f-d7a8-4697-ac0b-38838280a1d0",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
@@ -1481,115 +1482,6 @@
       },
       "mb_cat": {
         "type": "mb_cat",
-        "blocks": {
-          "37d41873-33b9-495f-b9e9-261690a26f44": {
-            "type": "cat",
-            "settings": {
-              "cat": "women",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "02afbc74-7e86-47eb-a54c-4b782b9be1ec": {
-            "type": "cat",
-            "settings": {
-              "cat": "frontpage",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "a8e444e6-eaae-4fff-a0dd-f13d43abd5f0": {
-            "type": "cat",
-            "settings": {
-              "cat": "accessories",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "a613ac38-3b02-42a8-8d06-c7fab073ed0c": {
-            "type": "catimg",
-            "settings": {
-              "cat": "shoes",
-              "title": "",
-              "url": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair",
-              "cat1": "",
-              "url1": "",
-              "cat2": "",
-              "url2": "",
-              "cat3": "",
-              "url3": "",
-              "cat4": "",
-              "url4": "",
-              "cat5": "",
-              "url5": "",
-              "cat6": "",
-              "url6": "",
-              "cat7": "",
-              "url7": "",
-              "cat8": "",
-              "url8": "",
-              "cat9": "",
-              "url9": "",
-              "cat10": "",
-              "url10": "",
-              "cat11": "",
-              "url11": "",
-              "cat12": "",
-              "url12": "",
-              "cat13": "",
-              "url13": "",
-              "cat14": "",
-              "url14": "",
-              "cat15": "",
-              "url15": "",
-              "cat16": "",
-              "url16": "",
-              "cat17": "",
-              "url17": "",
-              "cat18": "",
-              "url18": "",
-              "cat19": "",
-              "url19": "",
-              "cat20": "",
-              "url20": "",
-              "cat21": "",
-              "url21": "",
-              "cat22": "",
-              "url22": "",
-              "cat23": "",
-              "url23": "",
-              "cat24": "",
-              "url24": "",
-              "cat25": "",
-              "url25": ""
-            }
-          }
-        },
-        "block_order": [
-          "37d41873-33b9-495f-b9e9-261690a26f44",
-          "02afbc74-7e86-47eb-a54c-4b782b9be1ec",
-          "a8e444e6-eaae-4fff-a0dd-f13d43abd5f0",
-          "a613ac38-3b02-42a8-8d06-c7fab073ed0c"
-        ],
         "settings": {
         }
       },
@@ -1857,12 +1749,12 @@
       "login-sidebar": {
         "type": "login-sidebar",
         "settings": {
-          "content_align": "start",
-          "btn_width": "full",
-          "button_style": "default",
-          "btns_size": "medium",
+          "content_align": "center",
+          "btn_width": "default",
+          "button_style": "outline",
+          "btns_size": "extra-medium",
           "btns_cl": "primary",
-          "button_effect": "default"
+          "button_effect": "fade"
         }
       },
       "facets": {
@@ -2238,6 +2130,18 @@
       },
       "extras": {
         "type": "extras",
+        "blocks": {
+          "8850a334-2f99-462b-a6df-d0f52abb2305": {
+            "type": "inactive_tab",
+            "settings": {
+              "message": "🔥 Don't forget this...; 🔥 Come back!",
+              "delay": 1000
+            }
+          }
+        },
+        "block_order": [
+          "8850a334-2f99-462b-a6df-d0f52abb2305"
+        ],
         "settings": {
         }
       },
