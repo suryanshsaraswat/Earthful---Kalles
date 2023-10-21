@@ -24,6 +24,7 @@
     background-color: #fffceb;
     color: #000;
 }
+.t4s-mb__menu li a{color:#000}
 @media(max-width:450px){
     .Container{padding:0 20px}
     .t4s-product-form__buttons{display: none!important;}
