@@ -20,6 +20,10 @@
     max-width: 100%;
     padding: 0px 50px;
 }
+.t4s-drawer.t4s-drawer__left {
+    background-color: #fffceba6;
+    color: #000;
+}
 @media(max-width:450px){
     .Container{padding:0 20px}
     .t4s-product-form__buttons{display: none!important;}
