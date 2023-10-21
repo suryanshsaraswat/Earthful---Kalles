@@ -30,6 +30,7 @@
     .t4s-product-form__buttons{display: none!important;}
 }
 .t4s-col-item a.t4s-push-menu-btn{position:relative}
+.t4s-header__logo.t4s-lh-1{position:relative}
 .t4s-header__logo.t4s-lh-1::after {
     position: absolute;
     content: "";
