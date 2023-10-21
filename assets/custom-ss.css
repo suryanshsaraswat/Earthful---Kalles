@@ -29,4 +29,12 @@
     .Container{padding:0 20px}
     .t4s-product-form__buttons{display: none!important;}
 }
-.t4s-col-item a.t4s-push-menu-btn
+.t4s-col-item a.t4s-push-menu-btn{position:relative}
+.t4s-col-item a.t4s-push-menu-btn::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 1px;
+    height: 20px;
+    background: #000;
+}
