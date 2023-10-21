@@ -18,6 +18,7 @@
     "logo_mb_width": 130,
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
     "only_icon": true,
     "accent_color": "#b97942",
     "secondary_color": "#dfbb90",
