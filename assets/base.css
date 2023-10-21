@@ -201,7 +201,7 @@ a {
   a:hover {
     color: #242424; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .t4s_title a { 
-    font-family: inherit; }
+        font-family: ll circular, sans-serif!important; }
 
 /*   h1 a:not(:hover), h2 a:not(:hover), h3 a:not(:hover), h4 a:not(:hover), h5 a:not(:hover), h6 a:not(:hover), .t4s_title a:not(:hover) {
       color: inherit; 
