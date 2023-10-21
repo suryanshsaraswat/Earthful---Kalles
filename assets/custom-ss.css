@@ -30,11 +30,21 @@
     .t4s-product-form__buttons{display: none!important;}
 }
 .t4s-col-item a.t4s-push-menu-btn{position:relative}
-.t4s-col-item a.t4s-push-menu-btn::after {
+.t4s-header__logo.t4s-lh-1::after {
     position: absolute;
     content: "";
-    top: 0;
-    width: 1px;
-    height: 20px;
     background: #000;
+    height: 62px;
+    width: 1px;
+    top: -17px;
+    right: 0%;
+}
+.t4s-header__logo.t4s-lh-1::before {
+    position: absolute;
+    content: "";
+    background: #000;
+    height: 62px;
+    width: 1px;
+    top: -17px;
+    left: 0%;
 }
