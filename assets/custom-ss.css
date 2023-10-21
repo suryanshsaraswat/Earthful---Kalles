@@ -29,10 +29,3 @@
     .Container{padding:0 20px}
     .t4s-product-form__buttons{display: none!important;}
 }
-.t4s-col-3 {
-    flex: 0 0 auto;
-    width: 25%;
-    min-height: 62px;
-    margin: auto;
-    padding: 17px 0px;
-}
