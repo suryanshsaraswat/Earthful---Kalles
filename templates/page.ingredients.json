@@ -103,6 +103,42 @@
             "ind_text-2": "",
             "ing_sub_url": "shopify:\/\/pages\/triphala"
           }
+        },
+        "f9b7b0e4-7fe4-4c03-9f05-4791fcfee224": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Psylium_Husk_Capsule_1.png",
+            "ind_text-1": "PSYLLIUM HUSK",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "77f6b72a-3aff-4bb1-a5e3-1c5a041438ed": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Ajwain_Capsule_1.png",
+            "ind_text-1": "AJWAIN",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "84b3069e-19f6-45ab-9479-87bb05795b51": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Fennel_Capsule.png",
+            "ind_text-1": "FENNEL",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "59d114bc-dc9b-4cc0-9415-640af8399d89": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Coriander_Capsule.png",
+            "ind_text-1": "CORIANDER",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
         }
       },
       "block_order": [
@@ -114,7 +150,11 @@
         "5c4296ee-b494-4b67-9fc4-ecce8047d479",
         "1ab75e14-8cd5-43ee-a196-fddbd5085e0b",
         "08f8a984-4e7c-4231-9101-049cb6466a80",
-        "c76c16d6-6bf2-4289-997f-9c67147bcde9"
+        "c76c16d6-6bf2-4289-997f-9c67147bcde9",
+        "f9b7b0e4-7fe4-4c03-9f05-4791fcfee224",
+        "77f6b72a-3aff-4bb1-a5e3-1c5a041438ed",
+        "84b3069e-19f6-45ab-9479-87bb05795b51",
+        "59d114bc-dc9b-4cc0-9415-640af8399d89"
       ],
       "settings": {
         "ing_heading": "All Ingredients",
@@ -160,12 +200,268 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "e45ba172-7d79-4be8-93a1-824d82c8893e": {
+      "type": "ingredients-sub-page-section",
+      "blocks": {
+        "4fc6fd6a-e916-4bc4-8381-925dc0af7a73": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Ginger_Capsule.png",
+            "ind_text-1": "GINGER",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "36a9c9b2-556a-4d1f-b062-bb43f2654aad": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/VitaminK2_Chickpea_0b4aa2d8-97aa-4f4f-b142-7679a87e6733.png",
+            "ind_text-1": "VITAMIN K",
+            "ind_text-2": "Fermented chickpeas",
+            "ing_sub_url": ""
+          }
+        },
+        "ac66484e-318c-47e5-8193-31a7c91978d8": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/VitaminE_Sunflower_71704ee4-7c89-4c74-a1d6-7459aa429ac5.png",
+            "ind_text-1": "VITAMIN E",
+            "ind_text-2": "Sunflower",
+            "ing_sub_url": ""
+          }
+        },
+        "816ddd8d-60fa-4987-b02d-3d129a7dfd04": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Biotin.png",
+            "ind_text-1": "BIOTIN",
+            "ind_text-2": "Sesbania gadiflora",
+            "ing_sub_url": ""
+          }
+        },
+        "c7a0d235-4046-4086-af1b-1bf05eb8cc1c": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Pumpkin_Capsule.jpg",
+            "ind_text-1": "PUMPKIN SEED",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "a3a6bee0-1b51-4a60-99bc-39379adad5d0": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/sophora_Japonica_Capsule.png",
+            "ind_text-1": "QUERCITINE",
+            "ind_text-2": "Sophora Japonica",
+            "ing_sub_url": ""
+          }
+        },
+        "eb628d41-2926-47df-8dce-f9ab6012a484": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Grape_Seed_extract_Capsule.png",
+            "ind_text-1": "GRAPE SEED",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "182f2727-4431-4dee-b776-1607001a60ba": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/VitaminA_moringa_715f0e0f-064b-4eef-9874-1ec4d84cbf34.png",
+            "ind_text-1": "VITAMIN A",
+            "ind_text-2": "Moringa",
+            "ing_sub_url": ""
+          }
+        },
+        "6be8d346-9b6e-4a12-a2f1-31e8108e7f27": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Acerola_Capsule.png",
+            "ind_text-1": "VITAMIN C",
+            "ind_text-2": "Acerola",
+            "ing_sub_url": ""
+          }
+        },
+        "06c2dc96-8678-4936-a879-1eae0fc1e94a": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Nettele_leaves_Capsule.png",
+            "ind_text-1": "NETTLE LEAVES",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "3712662c-3ce1-4cad-bd76-87bb1efb96ce": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Flaxseed_powder_Capsule.png",
+            "ind_text-1": "OMEGA - 3",
+            "ind_text-2": "Flaxseed",
+            "ing_sub_url": ""
+          }
+        },
+        "14403858-e0a4-459f-9353-a690224d7868": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Japanese_Knotweed_Capsule.png",
+            "ind_text-1": "RESVERATROL",
+            "ind_text-2": "Japanese Knotweed",
+            "ing_sub_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "4fc6fd6a-e916-4bc4-8381-925dc0af7a73",
+        "36a9c9b2-556a-4d1f-b062-bb43f2654aad",
+        "ac66484e-318c-47e5-8193-31a7c91978d8",
+        "816ddd8d-60fa-4987-b02d-3d129a7dfd04",
+        "c7a0d235-4046-4086-af1b-1bf05eb8cc1c",
+        "a3a6bee0-1b51-4a60-99bc-39379adad5d0",
+        "eb628d41-2926-47df-8dce-f9ab6012a484",
+        "182f2727-4431-4dee-b776-1607001a60ba",
+        "6be8d346-9b6e-4a12-a2f1-31e8108e7f27",
+        "06c2dc96-8678-4936-a879-1eae0fc1e94a",
+        "3712662c-3ce1-4cad-bd76-87bb1efb96ce",
+        "14403858-e0a4-459f-9353-a690224d7868"
+      ],
+      "settings": {
+        "ing_heading": "",
+        "ing_body": ""
+      }
+    },
+    "c9ccbe3e-cd81-49d4-81cc-9bc301b118c5": {
+      "type": "ingredients-sub-page-section",
+      "blocks": {
+        "e14418a0-6e28-4fc9-a757-06eab2e9c513": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Sea_buck_thorn_Capsule.png",
+            "ind_text-1": "SEA BUCK THORN",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "3ddbe364-025e-41a2-bee1-17809b3d36e9": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Pea_Protein_powder_Capsule.png",
+            "ind_text-1": "PEA PROTEIN",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "8bd1016f-f13d-4bf6-960b-87cd107d9703": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Green_Tea_Capsule.png",
+            "ind_text-1": "GREEN TEA",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "28e1c2fa-f2a3-4414-b8c5-f95bbe19c7fe": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Tart_Cherry_Capsule.png",
+            "ind_text-1": "MELATONIN",
+            "ind_text-2": "Tart Cherry",
+            "ing_sub_url": ""
+          }
+        },
+        "3094bbd4-f84c-407d-be3d-387d140a2f60": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "f3cbf4d0-f0f1-43ee-a3e6-2b1bc8f6be19": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "3350fbc1-d89c-41dc-9d49-eebb3f6b2732": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "85cc4f0e-9c93-436d-be5e-79abb3583d77": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "6fb1c1c6-55c4-4eb8-ab78-c26a630e4c32": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "601d7f57-4def-4b57-bcd0-2f7b5782d339": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "73bbae25-2674-4dcc-85a1-6e93a2e95552": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "5819c3d1-3311-45fe-8df9-877f8d439381": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e14418a0-6e28-4fc9-a757-06eab2e9c513",
+        "3ddbe364-025e-41a2-bee1-17809b3d36e9",
+        "8bd1016f-f13d-4bf6-960b-87cd107d9703",
+        "28e1c2fa-f2a3-4414-b8c5-f95bbe19c7fe",
+        "3094bbd4-f84c-407d-be3d-387d140a2f60",
+        "f3cbf4d0-f0f1-43ee-a3e6-2b1bc8f6be19",
+        "3350fbc1-d89c-41dc-9d49-eebb3f6b2732",
+        "85cc4f0e-9c93-436d-be5e-79abb3583d77",
+        "6fb1c1c6-55c4-4eb8-ab78-c26a630e4c32",
+        "601d7f57-4def-4b57-bcd0-2f7b5782d339",
+        "73bbae25-2674-4dcc-85a1-6e93a2e95552",
+        "5819c3d1-3311-45fe-8df9-877f8d439381"
+      ],
+      "settings": {
+        "ing_heading": "",
+        "ing_body": ""
+      }
     }
   },
   "order": [
     "heading",
     "355c3f2b-5009-4e75-8963-251258cf2032",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "e45ba172-7d79-4be8-93a1-824d82c8893e",
+    "c9ccbe3e-cd81-49d4-81cc-9bc301b118c5"
   ]
 }
