@@ -20,6 +20,27 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "355c3f2b-5009-4e75-8963-251258cf2032": {
+      "type": "ingredients-sub-page-section",
+      "blocks": {
+        "fde7cab9-79e4-4436-b9d1-a6462ee2ad4e": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Iron_Curryleaf_5f841ef9-ccd2-4569-accb-c1c1eae1627f.png",
+            "ind_text-1": "IRON",
+            "ind_text-2": "Curry Leaf",
+            "ing_sub_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "fde7cab9-79e4-4436-b9d1-a6462ee2ad4e"
+      ],
+      "settings": {
+        "ing_heading": "All Ingredients",
+        "ing_body": "<p>Enter your Description here<\/p>"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -63,6 +84,7 @@
   },
   "order": [
     "heading",
+    "355c3f2b-5009-4e75-8963-251258cf2032",
     "main",
     "sidebar-page"
   ]
