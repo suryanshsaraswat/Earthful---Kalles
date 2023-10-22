@@ -1,7 +1,72 @@
+<div class="Container ing">
+  <div class="sect-1">
+    <h2>{{ section.settings.ing_heading }}</h2>
+    {% if section.settings.ing_body != blank %}<div class="desc-body">{{ section.settings.ing_body }}</div>{% endif %}
+  </div>
+  <div class="sect-2">
+    <div class="sect-2-slider">
+      {% for block in section.blocks %}
+        <div class="ing-block" id="{{ block.id }}" style="background-image:url('{{ block.settings.ing_image | img_url:'400x' }}');">
+          <div class="text">
+            <h3>{{ block.settings.ing_text-1 }}</h3>
+            <div id="blocker">|</div>
+            <p>from<br>{{ block.settings.ing_text-2 }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "All Ingredients",
+    "settings": [
+      {
+        "type":"text",
+        "id":"ing_heading",
+        "label":"Heading",
+        "default":"All Ingredients"
+      },
+      {
+        "type":"html",
+        "id":"ing_body",
+        "label":"Description",
+        "default":"<p>ENter your Description here</p>"
+      }
+    ],
+    "blocks":[
+      {
+        "name":"Ingredient Block",
+        "type":"testimonials",
+        "settings":[
+          {
+            "type":"image_picker",
+            "id":"ing_image",
+            "label":"Select Ingredient Image"
+          },
+          {
+            "type":"text",
+            "id":"ind_text-1",
+            "label":"Enter ingredients"
+          },
+          {
+            "type":"text",
+            "id":"ind_text-2",
+            "label":"Enter ingredients"
+          },
+          {
+            "type":"url",
+            "id":"ing_sub_url",
+            "label":"select ingredient Label"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"All Ingredients"
+      }
+    ]
   }
 {% endschema %}
 
