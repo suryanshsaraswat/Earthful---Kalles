@@ -374,23 +374,26 @@
         "3094bbd4-f84c-407d-be3d-387d140a2f60": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
-            "ind_text-2": "",
+            "ing_image": "shopify:\/\/shop_images\/Copy_of_Griffonia_Seed_Capsule.png",
+            "ind_text-1": "5-HTP",
+            "ind_text-2": "Griffonia Seed Extract",
             "ing_sub_url": ""
           }
         },
         "f3cbf4d0-f0f1-43ee-a3e6-2b1bc8f6be19": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
-            "ind_text-2": "",
+            "ing_image": "shopify:\/\/shop_images\/Marine_Minerals_Capsule.png",
+            "ind_text-1": "MAGNESIUM",
+            "ind_text-2": "Marine Minerals",
             "ing_sub_url": ""
           }
         },
         "3350fbc1-d89c-41dc-9d49-eebb3f6b2732": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/Ashwagandha_root_Capsule.png",
+            "ind_text-1": "ASHWAGANDHA ROOT",
             "ind_text-2": "",
             "ing_sub_url": ""
           }
@@ -398,7 +401,8 @@
         "85cc4f0e-9c93-436d-be5e-79abb3583d77": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/Velarian_root_Capsule.png",
+            "ind_text-1": "VELARIAN ROOT",
             "ind_text-2": "",
             "ing_sub_url": ""
           }
@@ -406,7 +410,8 @@
         "6fb1c1c6-55c4-4eb8-ab78-c26a630e4c32": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/Chamomile_Capsule_f55a0b25-bcba-44ea-b89d-87476f74e863.png",
+            "ind_text-1": "CHAMOMILE",
             "ind_text-2": "",
             "ing_sub_url": ""
           }
@@ -414,7 +419,8 @@
         "601d7f57-4def-4b57-bcd0-2f7b5782d339": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/passion_flower_Capsule.png",
+            "ind_text-1": "PASSION FLOWER",
             "ind_text-2": "",
             "ing_sub_url": ""
           }
@@ -422,15 +428,35 @@
         "73bbae25-2674-4dcc-85a1-6e93a2e95552": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
-            "ind_text-2": "",
+            "ing_image": "shopify:\/\/shop_images\/Bamboo_shoot_Capsule.png",
+            "ind_text-1": "SILICA",
+            "ind_text-2": "Bamboo Shoot",
             "ing_sub_url": ""
           }
         },
         "5819c3d1-3311-45fe-8df9-877f8d439381": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/Licorice_Capsule.png",
+            "ind_text-1": "LICORICE",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "a689ccf3-eb8a-4fcd-98ad-80790ec59272": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/brown_rice.png",
+            "ind_text-1": "BROWN RICE PROTEIN",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "e577efcd-8930-4b93-a2d5-5359f3552cc4": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/monk_fruit.png",
+            "ind_text-1": "MONK FRUIT",
             "ind_text-2": "",
             "ing_sub_url": ""
           }
@@ -448,7 +474,9 @@
         "6fb1c1c6-55c4-4eb8-ab78-c26a630e4c32",
         "601d7f57-4def-4b57-bcd0-2f7b5782d339",
         "73bbae25-2674-4dcc-85a1-6e93a2e95552",
-        "5819c3d1-3311-45fe-8df9-877f8d439381"
+        "5819c3d1-3311-45fe-8df9-877f8d439381",
+        "a689ccf3-eb8a-4fcd-98ad-80790ec59272",
+        "e577efcd-8930-4b93-a2d5-5359f3552cc4"
       ],
       "settings": {
         "ing_heading": "",
