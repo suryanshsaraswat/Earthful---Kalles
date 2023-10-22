@@ -89,17 +89,19 @@
         "08f8a984-4e7c-4231-9101-049cb6466a80": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
-            "ind_text-2": "",
-            "ing_sub_url": ""
+            "ing_image": "shopify:\/\/shop_images\/Biotin.png",
+            "ind_text-1": "BIOTIN",
+            "ind_text-2": "Lemon, Basil & Guava",
+            "ing_sub_url": "shopify:\/\/pages\/biotin"
           }
         },
         "c76c16d6-6bf2-4289-997f-9c67147bcde9": {
           "type": "testimonials",
           "settings": {
-            "ind_text-1": "",
+            "ing_image": "shopify:\/\/shop_images\/Triphala_Capsule_1.png",
+            "ind_text-1": "TRIPHALA",
             "ind_text-2": "",
-            "ing_sub_url": ""
+            "ing_sub_url": "shopify:\/\/pages\/triphala"
           }
         }
       },
