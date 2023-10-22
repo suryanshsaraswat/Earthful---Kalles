@@ -29,12 +29,90 @@
             "ing_image": "shopify:\/\/shop_images\/Iron_Curryleaf_5f841ef9-ccd2-4569-accb-c1c1eae1627f.png",
             "ind_text-1": "IRON",
             "ind_text-2": "Curry Leaf",
+            "ing_sub_url": "shopify:\/\/pages\/iron"
+          }
+        },
+        "64ff96c3-014f-4cb9-bd51-41d7e627dfcf": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/VitaminD_Lichen_8c3a55c2-9ec7-4249-a9aa-e5daed80d64a.png",
+            "ind_text-1": "VITAMIN D",
+            "ind_text-2": "Lichen",
+            "ing_sub_url": "shopify:\/\/pages\/vitamin-d"
+          }
+        },
+        "d50764d5-4912-491a-8c37-4b91e3442e0e": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/VitamicC_amla_cd3f28be-fd1a-489a-939d-f587ce563ea9.png",
+            "ind_text-1": "VITAMIN C",
+            "ind_text-2": "Amla",
+            "ing_sub_url": "shopify:\/\/pages\/vitamin-c"
+          }
+        },
+        "79f64dc6-03a2-4240-a344-a13d5b301e90": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Zinc_Guavaleaf_11a3777f-42f4-4c66-a2dd-d8baff7e53ba.png",
+            "ind_text-1": "ZINC",
+            "ind_text-2": "Guava Leaf",
+            "ing_sub_url": "shopify:\/\/pages\/zinc"
+          }
+        },
+        "525ab8c9-2aa1-489d-a191-2d35662a2cd6": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Cumin_Capsule_fbc0956d-6b42-45cf-b9ff-e29820f6a158_2.png",
+            "ind_text-1": "CUMIN",
+            "ind_text-2": "",
+            "ing_sub_url": "shopify:\/\/pages\/cumin"
+          }
+        },
+        "5c4296ee-b494-4b67-9fc4-ecce8047d479": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Folate_8c1cedbc-3dd1-48e8-b7f1-538143cbc6c3.png",
+            "ind_text-1": "FOLATE",
+            "ind_text-2": "Lemon, Basil & Guava",
+            "ing_sub_url": "shopify:\/\/pages\/folate"
+          }
+        },
+        "1ab75e14-8cd5-43ee-a196-fddbd5085e0b": {
+          "type": "testimonials",
+          "settings": {
+            "ing_image": "shopify:\/\/shop_images\/Selenium_Mustard_13802ba3-5682-4dfe-b6bf-9954765066e7.png",
+            "ind_text-1": "SELENIUM",
+            "ind_text-2": "Mustard",
+            "ing_sub_url": "shopify:\/\/pages\/selenium"
+          }
+        },
+        "08f8a984-4e7c-4231-9101-049cb6466a80": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
+            "ing_sub_url": ""
+          }
+        },
+        "c76c16d6-6bf2-4289-997f-9c67147bcde9": {
+          "type": "testimonials",
+          "settings": {
+            "ind_text-1": "",
+            "ind_text-2": "",
             "ing_sub_url": ""
           }
         }
       },
       "block_order": [
-        "fde7cab9-79e4-4436-b9d1-a6462ee2ad4e"
+        "fde7cab9-79e4-4436-b9d1-a6462ee2ad4e",
+        "64ff96c3-014f-4cb9-bd51-41d7e627dfcf",
+        "d50764d5-4912-491a-8c37-4b91e3442e0e",
+        "79f64dc6-03a2-4240-a344-a13d5b301e90",
+        "525ab8c9-2aa1-489d-a191-2d35662a2cd6",
+        "5c4296ee-b494-4b67-9fc4-ecce8047d479",
+        "1ab75e14-8cd5-43ee-a196-fddbd5085e0b",
+        "08f8a984-4e7c-4231-9101-049cb6466a80",
+        "c76c16d6-6bf2-4289-997f-9c67147bcde9"
       ],
       "settings": {
         "ing_heading": "All Ingredients",
