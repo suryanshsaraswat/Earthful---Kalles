@@ -8,9 +8,9 @@
       {% for block in section.blocks %}
         <div class="ing-block" id="{{ block.id }}" style="background-image:url('{{ block.settings.ing_image | img_url:'400x' }}');">
           <div class="text">
-            <h3>{{ block.settings.ing_text-1 }}</h3>
+            <h3>{{ block.settings.ind_text-1 }}</h3>
             <div id="blocker">|</div>
-            <p>from<br>{{ block.settings.ing_text-2 }}</p>
+            <p>from<br>{{ block.settings.ind_text-2 }}</p>
           </div>
         </div>
       {% endfor %}
