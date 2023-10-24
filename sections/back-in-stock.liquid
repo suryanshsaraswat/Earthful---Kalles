@@ -101,7 +101,9 @@ assign formId          = 'ContactFormNotify' | append: product_variant.id
          <div class="t4s-product-notify-stock__price">{%- if product_variant.compare_at_price > product_variant.price -%} <del>{{ product_variant.compare_at_price | money }}</del> <ins>{{ product_variant.price | money }}</ins>{%- else -%}{{ product_variant.price | money }}{%- endif -%}</div>
        </div>
    </div>
-
+<div class="whtsapp-notfiy-me">
+  <a href="" class="Button Button-primary">Notify me when available!</a>
+</div>
   {%- form 'contact', id: formId -%}
 
     {%- render 'form-status', form: form, form_id: formId -%}
