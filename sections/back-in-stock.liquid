@@ -82,7 +82,7 @@ assign formId          = 'ContactFormNotify' | append: product_variant.id
     </style>  
   {%- assign formId = 'ContactFormNotifyStock' | append: product_variant.id -%}
 
-   <div class="t4s-product-notify-stock">
+   {% comment %}<div class="t4s-product-notify-stock">
        {%- if image != blank -%}
        <div class="t4s-product-notify-stock__img t4s-bg-11" style="background: url({{ image | image_url: width: 1 }})">
           <img class="lazyloadt4s t4s-lz--fadeIn" data-src="{{ image | image_url: width: 1 }}" data-widths="[80,120,160,200]" data-optimumx="1.2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
@@ -140,7 +140,7 @@ assign formId          = 'ContactFormNotify' | append: product_variant.id
     <input type="submit" class="button t4s-w-100" value="{{ 'products.notify_stock.button' | t }}">
 
   {%- endform -%}
-[t4splitlz]
+[t4splitlz]{% endcomment %}
 
 {% schema %}
 {
