@@ -583,7 +583,7 @@ button.t4s-product-form__submit[disabled="disabled"]{
   font-size: 14px;
   font-weight: 600;
   min-height: 40px;
-  padding: 5px 25px;
+  padding: 9px 25px;
   cursor: pointer;
   color: var(--t4s-light-color);
   background-color: var(--secondary-color);
