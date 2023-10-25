@@ -1475,6 +1475,7 @@
           },
           "mini_cart-3": {
             "type": "btnc",
+            "disabled": true,
             "settings": {
               "btn_icon": false,
               "button_style": "default",
