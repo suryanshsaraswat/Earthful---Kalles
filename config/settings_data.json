@@ -987,6 +987,14 @@
             "settings": {
               "title": "Search"
             }
+          },
+          "b71f28ab-21ec-4868-b172-92227fbe22bb": {
+            "type": "link",
+            "settings": {
+              "title": "whatsapp",
+              "image": "shopify:\/\/shop_images\/whatsapp_11d84f96-1307-4d12-898c-38a966bf5633.png",
+              "link": "\/https:\/\/wa.me\/+918121010992?text=https%3A%2F%2Fkenzen-ventures.myshopify.com%2F%0A%0AHi"
+            }
           }
         },
         "block_order": [
@@ -994,7 +1002,8 @@
           "toolbar_mobile-1",
           "toolbar_mobile-2",
           "toolbar_mobile-3",
-          "toolbar_mobile-4"
+          "toolbar_mobile-4",
+          "b71f28ab-21ec-4868-b172-92227fbe22bb"
         ],
         "settings": {
           "enable_toolbar": true,
