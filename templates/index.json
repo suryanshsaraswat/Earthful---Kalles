@@ -6,8 +6,8 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/web_1.jpg",
-            "image_mb": "shopify:\/\/shop_images\/mobile_version.jpg",
+            "image": "shopify:\/\/shop_images\/earthful_website_banner-01_1_-compressed_1.jpg",
+            "image_mb": "shopify:\/\/shop_images\/earthful_mobile_banner-02_1_-compressed_1_1.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -688,11 +688,11 @@
             "newl_size": "small",
             "btn_icon": false,
             "input_cl": "#878787",
-            "border_cl": "#000",
+            "border_cl": "#000000",
             "btn_cl": "#ffffff",
             "btn_bg_cl": "#222222",
             "btn_hover_cl": "#ffffff",
-            "btn_hover_bg_cl": "#56CFE1",
+            "btn_hover_bg_cl": "#56cfe1",
             "hidden_mobile": false,
             "mgb": 15,
             "mgb_mb": 10
