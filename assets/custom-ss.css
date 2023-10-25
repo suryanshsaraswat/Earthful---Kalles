@@ -31,6 +31,10 @@
   button.t4s-product-form__submit.t4s-btn.t4s-btn-base.t4s-btn-style-default.t4s-btn-color-primary.t4s-w-100.t4s-justify-content-center.t4s-btn-effect-sweep-to-top.t4s-btn-loading__svg {
     display: none;
 }
+  .t4s-content-position.t4s-auto.t4s-pa.t4s-bg-content-true.t4s-br-content-false.t4s-br-style-solid.t4s-text-md-center.t4s-text-center {
+    max-width: 100%;
+    width: 330px;
+}
   .t4s-product-form__buttons .t4s-pr__notify-stock, .t4s-product-form__buttons .shopify-payment-button__button--unbranded{text-align:center}
 }
 .t4s-col-item a.t4s-push-menu-btn{position:relative}
