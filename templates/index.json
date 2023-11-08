@@ -95,7 +95,7 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/pp_front_1.png",
             "collection_title": "Honest Plant Protein",
-            "collection_link": "shopify:\/\/products\/plant-protein"
+            "collection_link": "shopify:\/\/products\/plant-protein-2"
           }
         },
         "template--16015805382840__1de41dc8-6a0d-4517-a728-ad3d46661ace-collection_item-2": {
@@ -619,8 +619,6 @@
         "f5e112ba-4ef3-4ac2-b3b1-3987f4184347": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 13,
-            "feed_width": 100,
             "html_area": ""
           }
         }
